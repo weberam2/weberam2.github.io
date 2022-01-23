@@ -1,0 +1,12 @@
+name: "weberam2.github.io"
+output_dir: "docs"
+navbar:
+  title: "Main Site"
+  left:
+  - text: "Home"
+   href: index.html
+  - text: "Hard Boulders"
+   href: boulders.html
+output:
+  html_document:
+ theme: cosmo
