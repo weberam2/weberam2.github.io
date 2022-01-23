@@ -264,25 +264,125 @@ $(document).ready(function () {
 </div>
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="boulders_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
-</div>
+<pre class="r"><code>mydata &lt;- read.csv(&quot;HardBoulders2.csv&quot;)
+mydata$Date &lt;- format(mdy(mydata$Date), &quot;%m/%d/%Y&quot;)</code></pre>
+<pre><code>## Warning: 3 failed to parse.</code></pre>
+<pre class="r"><code>head(mydata)</code></pre>
+<pre><code>##                Route               Name Grade FA     Country          Area       Date
+## 1              4-Low       Daniel Woods    15 FA Switzerland  Valle Bavona 03/15/2020
+## 2             Airian       Iban Larrion    15 FA       Spain      Baltzola 03/15/2012
+## 3             Airian Alberto Rocasolano    15          Spain      Baltzola 06/06/2016
+## 4 Alchimiste (right)       Alban Levier    15         France Fontainebleau 01/28/2016
+## 5 Alchimiste (right)  Nalle Hukkataival    15 FA      France Fontainebleau 03/16/2015
+## 6           Amazonia     Francis Helias    15 FA      France Fontainebleau 06/30/2002</code></pre>
+<pre class="r"><code>climbercounts &lt;- table(mydata$Name)
+climbercounts &lt;- climbercounts[climbercounts &gt; 12]
+ggplot(as.data.frame(climbercounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat=&quot;identity&quot;, fill=&quot;blue&quot;, width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle(&quot;Number of Hard Sends by Climber&quot;) +
+  labs(y=&quot;Number&quot;, x = &quot;Climber&quot;)</code></pre>
+<p><img src="boulders_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<pre class="r"><code>ggsave(&quot;NumberbyClimber.png&quot;, width = 20, height = 20, units = &quot;cm&quot;)</code></pre>
+<pre class="r"><code>require(dplyr) </code></pre>
+<pre><code>## Loading required package: dplyr</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>climberFA &lt;- mydata %&gt;% dplyr::filter(FA == &quot;FA&quot;)
+climberFAcounts &lt;- table(climberFA$Name)
+climberFAcounts &lt;- climberFAcounts[climberFAcounts &gt; 7]
+ggplot(as.data.frame(climberFAcounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat=&quot;identity&quot;, fill=&quot;blue&quot;, width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle(&quot;Number of Hard FA Sends by Climber&quot;) +
+  labs(y=&quot;Number&quot;, x = &quot;Climber&quot;)</code></pre>
+<p><img src="boulders_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre class="r"><code>ggsave(&quot;NumberFAbyClimber.png&quot;, width = 20, height = 20, units = &quot;cm&quot;)</code></pre>
+<pre class="r"><code>format(as.Date(mydata$Date, format=&quot;%m/%d/%Y&quot;),&quot;%Y&quot;)</code></pre>
+<pre><code>##   [1] &quot;2020&quot; &quot;2012&quot; &quot;2016&quot; &quot;2016&quot; &quot;2015&quot; &quot;2002&quot; &quot;2020&quot; &quot;2003&quot; &quot;2006&quot; &quot;2011&quot; &quot;2021&quot; &quot;2020&quot; &quot;2018&quot;
+##  [14] &quot;2019&quot; &quot;2016&quot; &quot;2019&quot; &quot;2018&quot; &quot;2016&quot; &quot;2016&quot; &quot;2019&quot; &quot;2020&quot; &quot;2020&quot; &quot;2016&quot; &quot;2016&quot; &quot;2011&quot; &quot;2021&quot;
+##  [27] &quot;2013&quot; &quot;2015&quot; &quot;2008&quot; &quot;2018&quot; &quot;2007&quot; &quot;2018&quot; NA     &quot;2021&quot; &quot;2016&quot; &quot;2014&quot; &quot;2018&quot; &quot;2017&quot; &quot;2016&quot;
+##  [40] &quot;2001&quot; &quot;2010&quot; &quot;2013&quot; &quot;2020&quot; &quot;2012&quot; &quot;2020&quot; &quot;2018&quot; &quot;2013&quot; &quot;2016&quot; &quot;2013&quot; &quot;2021&quot; &quot;2011&quot; &quot;2020&quot;
+##  [53] &quot;2020&quot; &quot;2015&quot; &quot;2020&quot; &quot;2015&quot; &quot;2017&quot; &quot;2017&quot; &quot;2021&quot; &quot;2018&quot; &quot;2013&quot; &quot;2015&quot; &quot;2015&quot; &quot;2016&quot; &quot;2018&quot;
+##  [66] &quot;2013&quot; &quot;2010&quot; &quot;2021&quot; &quot;2021&quot; &quot;2010&quot; &quot;2008&quot; &quot;2018&quot; &quot;2011&quot; &quot;2018&quot; &quot;2018&quot; &quot;2019&quot; &quot;2018&quot; &quot;2002&quot;
+##  [79] &quot;2021&quot; &quot;2020&quot; &quot;2020&quot; &quot;2019&quot; &quot;2019&quot; &quot;2010&quot; &quot;2011&quot; &quot;2006&quot; &quot;2021&quot; &quot;2019&quot; &quot;2019&quot; &quot;2009&quot; &quot;2007&quot;
+##  [92] &quot;2018&quot; &quot;2018&quot; &quot;2020&quot; &quot;2020&quot; &quot;2013&quot; &quot;2019&quot; &quot;2020&quot; &quot;2015&quot; &quot;2014&quot; &quot;2014&quot; &quot;2020&quot; &quot;2020&quot; &quot;2016&quot;
+## [105] &quot;2003&quot; &quot;2020&quot; &quot;2015&quot; &quot;2019&quot; &quot;2020&quot; &quot;2019&quot; &quot;2017&quot; &quot;2016&quot; &quot;2017&quot; &quot;2016&quot; &quot;2013&quot; &quot;2016&quot; &quot;2018&quot;
+## [118] &quot;2018&quot; &quot;2016&quot; &quot;2019&quot; &quot;2016&quot; &quot;2011&quot; &quot;2019&quot; &quot;2020&quot; &quot;2019&quot; &quot;2004&quot; &quot;2016&quot; &quot;2000&quot; &quot;2020&quot; &quot;2017&quot;
+## [131] &quot;2016&quot; &quot;2021&quot; &quot;2017&quot; &quot;2021&quot; &quot;2021&quot; &quot;2016&quot; &quot;2020&quot; &quot;2018&quot; &quot;2018&quot; NA     NA     NA     &quot;2021&quot;
+## [144] &quot;2021&quot; &quot;2022&quot; NA     &quot;2018&quot; &quot;2020&quot; &quot;2020&quot; &quot;2020&quot; &quot;2013&quot; &quot;2014&quot; NA     &quot;2019&quot; &quot;2013&quot; &quot;2013&quot;
+## [157] &quot;2019&quot; &quot;2021&quot; &quot;2018&quot; &quot;2021&quot; NA     NA     NA     NA     &quot;2018&quot; &quot;2017&quot; &quot;2019&quot; &quot;2021&quot; &quot;2018&quot;
+## [170] &quot;2021&quot; &quot;2007&quot; &quot;2012&quot; &quot;2020&quot; &quot;2021&quot; &quot;2020&quot; &quot;2020&quot; &quot;2020&quot; &quot;2021&quot; &quot;2019&quot; &quot;2020&quot; &quot;2021&quot; &quot;2012&quot;
+## [183] &quot;2016&quot; &quot;2021&quot; &quot;2022&quot; &quot;2001&quot; &quot;2020&quot; &quot;2003&quot; &quot;2004&quot; &quot;2018&quot; &quot;2021&quot; &quot;2013&quot; &quot;2000&quot; &quot;2015&quot; &quot;2004&quot;
+## [196] &quot;2018&quot; &quot;2013&quot; &quot;2019&quot; &quot;2020&quot; &quot;2022&quot; &quot;2020&quot; &quot;2021&quot; &quot;2010&quot; &quot;2019&quot; &quot;2019&quot; &quot;2003&quot; &quot;2019&quot; &quot;2020&quot;
+## [209] &quot;2021&quot; &quot;2017&quot; &quot;2019&quot; &quot;2015&quot; &quot;2009&quot; NA     &quot;2005&quot; &quot;2021&quot; &quot;2020&quot; &quot;2014&quot; NA     NA     &quot;2005&quot;
+## [222] NA     NA     NA     NA     &quot;2007&quot; NA     NA     NA     &quot;2021&quot; &quot;2021&quot; &quot;2019&quot; &quot;2020&quot; NA    
+## [235] &quot;2017&quot; &quot;2020&quot; NA     NA     &quot;2015&quot; NA     NA     &quot;2020&quot; NA     &quot;2003&quot; &quot;2021&quot; &quot;2018&quot; &quot;2019&quot;
+## [248] &quot;2019&quot; &quot;2017&quot; &quot;2021&quot; NA     NA     NA     NA     &quot;2021&quot; &quot;2020&quot; &quot;2019&quot; &quot;2019&quot; &quot;2021&quot; &quot;2020&quot;
+## [261] &quot;2021&quot; &quot;2020&quot; &quot;2011&quot; &quot;2021&quot; NA     &quot;2021&quot; NA     NA     NA     &quot;2019&quot; &quot;2013&quot; &quot;2020&quot; &quot;2020&quot;
+## [274] &quot;2020&quot; &quot;2021&quot; NA     NA     NA     NA     &quot;2010&quot; &quot;2010&quot; &quot;2017&quot; &quot;2019&quot; &quot;2005&quot; &quot;2021&quot; &quot;2020&quot;
+## [287] &quot;2019&quot; &quot;2015&quot; &quot;2020&quot; &quot;2015&quot; &quot;2013&quot; &quot;2020&quot; &quot;2018&quot; &quot;2011&quot; &quot;2010&quot; &quot;2016&quot; &quot;2013&quot; &quot;2020&quot; &quot;2019&quot;
+## [300] &quot;2020&quot; &quot;2018&quot; &quot;2018&quot; &quot;2019&quot; &quot;2019&quot; &quot;2011&quot; &quot;2008&quot; &quot;2021&quot; &quot;2014&quot; NA     &quot;2002&quot; NA     &quot;2019&quot;
+## [313] &quot;2021&quot; &quot;2021&quot; &quot;2021&quot; &quot;2020&quot; &quot;2021&quot; &quot;2015&quot; &quot;2019&quot; &quot;2019&quot; &quot;2015&quot; NA     &quot;2021&quot; &quot;2020&quot; &quot;2020&quot;
+## [326] &quot;2017&quot; &quot;2020&quot; NA     &quot;2016&quot; &quot;2017&quot; NA     NA     &quot;2021&quot; &quot;2009&quot; &quot;2005&quot; &quot;2013&quot; NA     &quot;2020&quot;
+## [339] &quot;2016&quot; NA     &quot;2018&quot; NA     &quot;2004&quot; &quot;2006&quot; &quot;2010&quot; &quot;2020&quot; &quot;2019&quot; &quot;2016&quot; &quot;2018&quot; &quot;2013&quot; &quot;2011&quot;
+## [352] &quot;2013&quot; &quot;2015&quot; &quot;2020&quot; &quot;2020&quot; &quot;2019&quot; NA     &quot;2010&quot; &quot;2014&quot; &quot;2012&quot; NA     &quot;2008&quot; &quot;2017&quot; &quot;2014&quot;
+## [365] &quot;2013&quot; &quot;2021&quot; NA     &quot;2017&quot; &quot;2008&quot; &quot;2014&quot; &quot;2013&quot; &quot;2016&quot; &quot;2016&quot; &quot;2017&quot; &quot;2020&quot; &quot;2017&quot; NA    
+## [378] NA     &quot;2018&quot; &quot;2014&quot; NA     NA     &quot;2021&quot; &quot;2013&quot; &quot;2019&quot; &quot;2021&quot; &quot;2014&quot; &quot;2020&quot; &quot;2019&quot; &quot;2016&quot;
+## [391] &quot;2018&quot; NA     NA     NA     NA     &quot;2010&quot; &quot;2001&quot; &quot;2017&quot; &quot;2021&quot; &quot;2017&quot; NA     NA     NA    
+## [404] &quot;2019&quot; &quot;2017&quot; &quot;2018&quot; &quot;2020&quot; &quot;2019&quot; &quot;2015&quot; NA     NA     &quot;2021&quot; &quot;2021&quot; &quot;2020&quot; &quot;2021&quot; &quot;2021&quot;
+## [417] &quot;2020&quot; &quot;2014&quot; &quot;2020&quot; &quot;2010&quot; NA     NA     NA     NA     &quot;2021&quot; &quot;2014&quot; &quot;2014&quot; &quot;2004&quot; &quot;2015&quot;
+## [430] &quot;2013&quot; &quot;2012&quot; &quot;2015&quot; &quot;2021&quot; &quot;2018&quot; &quot;2004&quot; NA     NA     NA     &quot;2020&quot; &quot;2013&quot; &quot;2016&quot; &quot;2020&quot;
+## [443] &quot;2020&quot; &quot;2011&quot; NA     &quot;2017&quot; NA     NA     &quot;2012&quot; NA     NA     &quot;2019&quot; &quot;2019&quot; &quot;2019&quot; NA    
+## [456] NA     &quot;2010&quot; &quot;2019&quot; NA     &quot;2017&quot; &quot;2018&quot; &quot;2016&quot; &quot;2007&quot; &quot;2021&quot; &quot;2016&quot; &quot;2017&quot; &quot;2021&quot; &quot;2013&quot;
+## [469] &quot;2013&quot; &quot;2021&quot; &quot;2021&quot; &quot;2020&quot; &quot;2018&quot; &quot;2021&quot; &quot;2013&quot; &quot;2021&quot; NA     NA     NA     NA     NA    
+## [482] &quot;2002&quot; &quot;2003&quot; &quot;2013&quot; &quot;2021&quot; NA     &quot;2019&quot; NA     &quot;2020&quot; &quot;2015&quot; NA     NA     NA     &quot;2017&quot;
+## [495] &quot;2019&quot; &quot;2019&quot; &quot;2015&quot; NA     &quot;2020&quot; &quot;2021&quot; &quot;2020&quot; &quot;2021&quot; &quot;2022&quot; &quot;2019&quot; &quot;2021&quot; &quot;2021&quot; NA    
+## [508] &quot;2006&quot; &quot;2014&quot; &quot;2015&quot; &quot;2018&quot; &quot;2015&quot; &quot;2019&quot; &quot;2017&quot; &quot;2020&quot; &quot;2021&quot; &quot;2012&quot; &quot;2012&quot; &quot;2019&quot; &quot;2019&quot;
+## [521] &quot;2016&quot; &quot;2021&quot; &quot;2012&quot; &quot;2020&quot; &quot;2020&quot; &quot;2020&quot; NA     NA     NA     &quot;2020&quot; NA     NA     &quot;2017&quot;
+## [534] NA     &quot;2019&quot; &quot;2011&quot; &quot;2019&quot; &quot;2021&quot; &quot;2020&quot; &quot;2020&quot; &quot;2021&quot; &quot;2021&quot; &quot;2021&quot; &quot;2021&quot; NA     NA    
+## [547] &quot;2016&quot; &quot;2016&quot; &quot;2021&quot; &quot;2010&quot; &quot;2018&quot; &quot;2018&quot; NA     NA     &quot;2019&quot; &quot;2020&quot; &quot;2007&quot; &quot;2020&quot; &quot;2020&quot;
+## [560] NA     NA     NA     NA     NA     NA     NA     &quot;2011&quot; &quot;2017&quot; &quot;2012&quot; &quot;2004&quot; &quot;2011&quot; &quot;2019&quot;
+## [573] &quot;2014&quot; &quot;2014&quot; &quot;2017&quot; &quot;2019&quot; &quot;2015&quot; &quot;2008&quot; &quot;2018&quot; &quot;2021&quot; &quot;2020&quot; &quot;2019&quot; &quot;2019&quot; &quot;2020&quot; &quot;2021&quot;
+## [586] &quot;2015&quot; &quot;2008&quot; &quot;2019&quot; &quot;2021&quot; &quot;2020&quot; &quot;2019&quot; &quot;2017&quot; &quot;2021&quot; &quot;2020&quot; &quot;2008&quot; NA     NA     NA    
+## [599] &quot;2016&quot; &quot;2015&quot; &quot;2019&quot; &quot;2006&quot; &quot;2019&quot; NA     &quot;2021&quot; &quot;2019&quot; &quot;2017&quot; NA     NA     &quot;2021&quot; &quot;2021&quot;
+## [612] &quot;2020&quot; &quot;2021&quot; NA     &quot;2021&quot; &quot;2021&quot; NA     &quot;2019&quot; &quot;2021&quot; &quot;2021&quot; &quot;2021&quot; &quot;2019&quot; &quot;2021&quot; &quot;2013&quot;
+## [625] &quot;2018&quot; NA     NA     &quot;2020&quot; NA     NA     NA     &quot;2014&quot; &quot;2017&quot; &quot;2018&quot; &quot;2019&quot; &quot;2020&quot; &quot;2020&quot;
+## [638] NA     &quot;2019&quot; &quot;2019&quot; &quot;2021&quot; &quot;2020&quot; &quot;2020&quot; &quot;2019&quot; &quot;2004&quot; &quot;2009&quot; &quot;2018&quot; &quot;2021&quot; &quot;2021&quot; &quot;2016&quot;
+## [651] &quot;2021&quot; &quot;2020&quot; &quot;2019&quot; &quot;2016&quot; &quot;2019&quot; NA     &quot;2015&quot; &quot;2015&quot; &quot;2019&quot; &quot;2019&quot; &quot;2019&quot; &quot;2018&quot; NA    
+## [664] &quot;2016&quot; NA     &quot;2018&quot; &quot;2016&quot; &quot;2021&quot; &quot;2019&quot; &quot;2019&quot; &quot;2018&quot; &quot;2019&quot; &quot;2019&quot; NA     &quot;2021&quot; &quot;2021&quot;
+## [677] NA     &quot;2020&quot; NA     NA     &quot;2018&quot; &quot;2020&quot; &quot;2013&quot; &quot;2005&quot; &quot;2014&quot; &quot;2019&quot; &quot;2014&quot; &quot;2014&quot; &quot;2014&quot;
+## [690] &quot;2013&quot; &quot;2019&quot; &quot;2019&quot; &quot;2022&quot; &quot;2015&quot; &quot;2020&quot; &quot;2011&quot; &quot;2018&quot; &quot;2014&quot; &quot;2019&quot; &quot;2019&quot; &quot;2019&quot; &quot;2018&quot;
+## [703] &quot;2017&quot; &quot;2020&quot; &quot;2019&quot; &quot;2018&quot; &quot;2018&quot; &quot;2018&quot; NA     &quot;2011&quot; &quot;2004&quot; &quot;2010&quot; &quot;2006&quot; &quot;2008&quot; &quot;2015&quot;
+## [716] NA     &quot;2005&quot; NA     &quot;2004&quot; &quot;2016&quot; &quot;2019&quot; &quot;2019&quot; &quot;2016&quot; NA     NA     NA     &quot;2020&quot; &quot;2014&quot;
+## [729] &quot;2020&quot; &quot;2020&quot; &quot;2021&quot; &quot;2017&quot; &quot;2003&quot; &quot;2006&quot; &quot;2006&quot; &quot;2017&quot; &quot;2021&quot; NA     &quot;2013&quot; &quot;2013&quot; &quot;2011&quot;
+## [742] &quot;2003&quot; NA     &quot;2021&quot; &quot;2005&quot; &quot;2015&quot; &quot;2021&quot; &quot;2020&quot; &quot;2014&quot; &quot;2018&quot; &quot;2013&quot; &quot;2021&quot; &quot;2019&quot; NA    
+## [755] NA     &quot;2016&quot; &quot;2021&quot; &quot;2016&quot; &quot;2021&quot; &quot;2021&quot; NA     &quot;2019&quot; &quot;2002&quot; &quot;2017&quot; &quot;2011&quot; &quot;2017&quot; &quot;2002&quot;
+## [768] &quot;2021&quot; &quot;2021&quot; &quot;2010&quot; &quot;2013&quot; NA     NA     NA     &quot;2007&quot; &quot;2004&quot; NA     NA     NA     NA    
+## [781] &quot;2011&quot; NA     &quot;2012&quot; NA     &quot;2013&quot; &quot;2013&quot; &quot;2013&quot; NA     NA     &quot;2017&quot; &quot;2018&quot; &quot;2021&quot; &quot;2010&quot;
+## [794] &quot;2012&quot; &quot;2021&quot; &quot;2013&quot; &quot;2020&quot; &quot;2015&quot; &quot;2020&quot; &quot;2013&quot; NA     NA     &quot;2018&quot; NA     NA     NA    
+## [807] &quot;2015&quot; &quot;2021&quot; &quot;2017&quot; &quot;2021&quot; &quot;2015&quot; &quot;2003&quot; &quot;2017&quot; &quot;2020&quot; &quot;2016&quot; NA     NA     NA</code></pre>
+<pre class="r"><code>yearcounts &lt;- table(format(as.Date(mydata$Date, format=&quot;%m/%d/%Y&quot;),&quot;%Y&quot;))
+ggplot(as.data.frame(yearcounts), aes(x=Var1, y = Freq)) + geom_bar(stat=&quot;identity&quot;, fill=&quot;blue&quot;, width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle(&quot;Hard Boulder Sends by Year&quot;) +
+  labs(y=&quot;Number&quot;, x = &quot;Year&quot;)</code></pre>
+<p><img src="boulders_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<pre class="r"><code>ggsave(&quot;Year.png&quot;, width = 20, height = 20, units = &quot;cm&quot;)</code></pre>
+<pre class="r"><code>uniquebygrade &lt;- mydata %&gt;% count(Grade, Name, sort=TRUE) %&gt;% count(Grade, sort=TRUE)
+ggplot(uniquebygrade, aes(x=Grade, y = n)) + geom_bar(stat=&quot;identity&quot;, fill=&quot;blue&quot;, width=0.3) + 
+  ggtitle(&quot;Unique Ascentionists by Grade&quot;) +
+  labs(y=&quot;Number&quot;, x = &quot;V Grade&quot;)</code></pre>
+<p><img src="boulders_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<pre class="r"><code>ggsave(&quot;Uniquebygrade.png&quot;, width = 20, height = 20, units = &quot;cm&quot;)</code></pre>
+<pre class="r"><code>countrycounts &lt;- table(mydata$Country)
+countrycounts &lt;- countrycounts[countrycounts &gt; 12]
+ggplot(as.data.frame(countrycounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat=&quot;identity&quot;, fill=&quot;blue&quot;, , width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle(&quot;Number of Hard Sends by Country&quot;) +
+  labs(y=&quot;Number&quot;, x = &quot;Country&quot;)</code></pre>
+<p><img src="boulders_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<pre class="r"><code>ggsave(&quot;NumberbyCountry.png&quot;, width = 20, height = 20, units = &quot;cm&quot;)</code></pre>
 
 
 
