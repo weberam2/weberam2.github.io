@@ -4,24 +4,60 @@ title: 'boulders'
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(lubridate)
+library(ggplot2)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+mydata <- read.csv("HardBoulders2.csv")
+mydata$Date <- format(mdy(mydata$Date), "%m/%d/%Y")
+head(mydata)
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+climbercounts <- table(mydata$Name)
+climbercounts <- climbercounts[climbercounts > 12]
+ggplot(as.data.frame(climbercounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle("Number of Hard Sends by Climber") +
+  labs(y="Number", x = "Climber")
+ggsave("NumberbyClimber.png", width = 20, height = 20, units = "cm")
+```
+```{r}
+require(dplyr) 
+climberFA <- mydata %>% dplyr::filter(FA == "FA")
+climberFAcounts <- table(climberFA$Name)
+climberFAcounts <- climberFAcounts[climberFAcounts > 7]
+ggplot(as.data.frame(climberFAcounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle("Number of Hard FA Sends by Climber") +
+  labs(y="Number", x = "Climber")
+ggsave("NumberFAbyClimber.png", width = 20, height = 20, units = "cm")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y")
+yearcounts <- table(format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y"))
+ggplot(as.data.frame(yearcounts), aes(x=Var1, y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle("Hard Boulder Sends by Year") +
+  labs(y="Number", x = "Year")
+ggsave("Year.png", width = 20, height = 20, units = "cm")
+```
+
+```{r}
+uniquebygrade <- mydata %>% count(Grade, Name, sort=TRUE) %>% count(Grade, sort=TRUE)
+ggplot(uniquebygrade, aes(x=Grade, y = n)) + geom_bar(stat="identity", fill="blue", width=0.3) + 
+  ggtitle("Unique Ascentionists by Grade") +
+  labs(y="Number", x = "V Grade")
+ggsave("Uniquebygrade.png", width = 20, height = 20, units = "cm")
+```
+
+
+```{r}
+countrycounts <- table(mydata$Country)
+countrycounts <- countrycounts[countrycounts > 12]
+ggplot(as.data.frame(countrycounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat="identity", fill="blue", , width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle("Number of Hard Sends by Country") +
+  labs(y="Number", x = "Country")
+ggsave("NumberbyCountry.png", width = 20, height = 20, units = "cm")
+```
+
