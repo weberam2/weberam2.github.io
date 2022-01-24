@@ -29,7 +29,7 @@ library(DT)
 
 The following is an attempt to update [Alex Beale](https://www.99boulders.com/author/alex)'s fantastic list of [The World's Hardest Boulder Problems](https://www.99boulders.com/hardest-boulder-problems), which attempted to collect the hardest boulder problems with a lower cutoff grade of V15 (8C).
 
-As of January 2022, Mr. Beale has not updated the his site past March of 2019. This is really unfortunate as hard bouldering has really jumped starting in 2019 (which show). The following is my attempt to create the most up-to-date list of hard boulder sends.
+As of January 2022, Mr. Beale has not updated the site past March of 2019. This is really unfortunate as hard bouldering has really jumped starting in 2019 (which show). The following is my attempt to create the most up-to-date list of hard boulder sends.
 
 ```{r, include=FALSE}
 mydata <- read.csv("HardBoulders2.csv")
