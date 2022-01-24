@@ -25,12 +25,11 @@ library(DT)
 ***Last updated:** January 2022. If you notice anything that is an error, or you would like to help improve the list, please let me know.*
 
 *[Note: this site and list are still under construction. Things I still need to do: <br>
-- Add ability for users to comment; <br>
-- Complete all dates]*
+- Add ability for users to comment]*
 
-The following is an attempt to update [Alex Beale](https://www.99boulders.com/author/alex)'s fantastic list of [The World's Hardest Boulder Problems](https://www.99boulders.com/hardest-boulder-problems). Alex Beale is [99boulder](https://www.99boulders.com/)'s founder and editor-in-chief. His site attempted to present a table of the hardest boulder problems with a lower cutoff grade of V15 (8C). For problems that did not have a consensus, he came up with a [formulaic way](https://www.99boulders.com/hardest-boulder-problems#list-criteria) to assign one based off the grade suggestions.
+The following is an attempt to update [Alex Beale](https://www.99boulders.com/author/alex)'s fantastic list of [The World's Hardest Boulder Problems](https://www.99boulders.com/hardest-boulder-problems), which attempted to collect the hardest boulder problems with a lower cutoff grade of V15 (8C).
 
-As of January 2022, Mr. Beale has not updated the his site past March of 2019. This is really unfortunate as hard bouldering has really exploded starting in 2019 (which I will show below with numbers). The following is my attempt to create the most up-to-date list of hard boulder sends.
+As of January 2022, Mr. Beale has not updated the his site past March of 2019. This is really unfortunate as hard bouldering has really jumped starting in 2019 (which show). The following is my attempt to create the most up-to-date list of hard boulder sends.
 
 ```{r, include=FALSE}
 mydata <- read.csv("HardBoulders2.csv")
@@ -73,11 +72,11 @@ DT::datatable(mydata[,1:7], colnames = c('Route Name', 'Climber', 'VGrade', 'FA'
 ```
 # The World’s Hardest Boulder Problem
 
-Based solely on grade, the title of world’s hardest boulder problem is currently shared by two problems: Burden of Dreams and Return of the Sleepwalker. Both are currently graded V17 (9A).
+Based solely on grade, the title of world’s hardest boulder problem is currently shared by two problems: [Burden of Dreams](https://climbing-history.org/climb/826/burden-of-dreams) and [Return of the Sleepwalker](https://climbing-history.org/climb/1116/return-of-the-sleepwalker). Both are currently graded V17 (9A).
 
 Both problems have only one ascent. Nalle Hukkataival sent Burden of Dreams in October 2016, making it the first problem ever to receive a proposed grade of V17 (9A). Daniel Woods sent Return of the Sleepwalker in March 2021.
 
-Two other problems have been graded V17, to then be downgraded. The Big Island (sit), first climbed by Simon Lorenzi in February 2021 as V17, has since been downgraded by Nico Pelorson in April 2021 (I have given this climb a grade of 16.5). No Kptoe Only, first climbed by Charles Albert (barefoot!) in 2019 as V17, has seen two repeats, with the most recent suggesting a downgrade of V15 (I have recorded the grade as V15 here). 
+Two other problems have been graded V17, to then be downgraded. [The Big Island (sit)](https://climbing-history.org/climb/849/soudain-seul), first climbed by Simon Lorenzi in February 2021 as V17, has since been downgraded by Nico Pelorson in April 2021 (I have given this climb a grade of 16.5). [No Kpote Only](https://climbing-history.org/climb/827/no-kpote-only), first climbed by Charles Albert (barefoot!) in 2019 as V17, has seen two repeats, with the most recent suggesting a downgrade of V15 (Nico Pelorson again; I have recorded the grade as V15 here). 
 
 # Who Is the Best Boulderer Ever?
 
@@ -120,7 +119,7 @@ ggplot(as.data.frame(yearcounts), aes(x=Var1, y = Freq)) + geom_bar(stat="identi
 #ggsave("images/Year.png", width = 20, height = 20, units = "cm")
 ```
 
-Starting in `r min(na.omit(format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y")))` with some of the first consensus V15s ([Black Eagle SD](https://climbing-history.org/climb/1143/black-eagle-assis) and [Monkey Wedding](https://climbing-history.org/climb/107/monkey-wedding), both FAs by Fred Nicole; [Dreamtime](https://climbing-history.org/climb/138/dreamtime-(pre-break)) by Fred Nicole was the first V15 in 2000, but was subsequently downgraded to V14...until around 2010 when a hold broke taking it back to V15), there was a consistent year-to-year addition of hard boulders (with the exception of a jump in 2004), only to start growing around 2010. 2013 appears to be a big outlier for some reason (perhaps I have mixed up 2012 and 2013 dates). Finally, starting in 2019, we have a giant explosion in hard boulder sends... 
+Starting in `r min(na.omit(format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y")))` with some of the first consensus V15s ([Black Eagle SD](https://climbing-history.org/climb/1143/black-eagle-assis) and [Monkey Wedding](https://climbing-history.org/climb/107/monkey-wedding), both FAs by Fred Nicole; [Dreamtime](https://climbing-history.org/climb/138/dreamtime-(pre-break)) by Fred Nicole was the first V15 in 2000, but was subsequently downgraded to V14...until around 2010 when a hold broke taking it back to V15), there was a flat year-to-year addition of hard boulders (with the exception of a jump in 2004), only to start growing around 2010. 2013 appears to be an outlier for some reason (perhaps I have mixed up 2012 and 2013 dates). Finally, starting in 2019, we have a big bump in hard boulder sends... 
 
 It took two years from the first suggested V15 (Dreamtime (pre-break)) to a consensus V15 (Black Eagle SD / Monkey Wedding). For V16, the first suggested problem appears to have been Tonino ’78, first sent by Mauro Calibani in 2004. But it wouldn't be until 2016 (12 years later) when Daniel Woods put up [Creature from the Black Lagoon](https://climbing-history.org/climb/1091/creature-from-the-black-lagoon), the world's first consensus V16.
 
