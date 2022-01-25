@@ -33,7 +33,9 @@ As of January 2022, Mr. Beale has not updated the site past March of 2019. This 
 
 ```{r, include=FALSE}
 mydata <- read.csv("HardBoulders2.csv")
-mydata$Date <- format(mdy(mydata$Date), "%m/%d/%Y")
+mydata$Date <- format(as.Date(mdy(mydata$Date), "%m/%d/%Y"))
+mydata$Date <- format(mydata$Date, format = "%Y/%m/%d")
+#mydata$Date <- as.Date(mydata$Date)
 head(mydata)
 ```
 
@@ -112,7 +114,7 @@ The strongest climber by most hard boulder sends is `r strongest$Var1[1]` with `
 
 ```{r, echo=FALSE}
 #format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y")
-yearcounts <- table(format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y"))
+yearcounts <- table(format(as.Date(mydata$Date),"%Y"))
 ggplot(as.data.frame(yearcounts), aes(x=Var1, y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + 
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle("Hard Boulder Sends by Year") +
   labs(y="Number", x = "Year")
