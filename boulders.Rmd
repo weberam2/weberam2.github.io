@@ -68,8 +68,8 @@ The most climbed **V16** boulder is **`r problemcounts16$Var1[1]`** with `r prob
 # The World's Hardest Boulder Problems
 
 ```{r, echo=FALSE}
-
-DT::datatable(mydata[,1:8], colnames = c('Route Name', 'Climber', 'Consensus VGrade', 'FA', 'Country', 'Area', 'Date', 'Suggested VGrade by Climber'), options = list(pageLength = 900, autoWidth = TRUE))
+mydata2 <- mydata %>% group_by(Route) %>% mutate(count = n()) %>% mutate(repeated = case_when (count == 1 ~ "Unrepeated", count > 1 ~ "Repeated"))
+DT::datatable(mydata2[,c(1:8,12)], colnames = c('Route Name', 'Climber', 'Consensus VGrade', 'FA', 'Country', 'Area', 'Date', 'Suggested VGrade by Climber', 'Repeated?'), options = list(pageLength = 900, autoWidth = TRUE))
 ```
 # The World’s Hardest Boulder Problem
 
