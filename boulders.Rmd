@@ -36,7 +36,6 @@ mydata <- read.csv("HardBoulders2.csv")
 mydata$Date <- format(as.Date(mdy(mydata$Date), "%m/%d/%Y"))
 mydata$Date <- format(mydata$Date, format = "%Y/%m/%d")
 #mydata$Date <- as.Date(mydata$Date)
-head(mydata)
 ```
 
 As it stands, there are currently `r nrow(mydata)` entries; of which `r sum(complete.cases(mydata$Date))` have dates.
@@ -69,8 +68,8 @@ The most climbed **V16** boulder is **`r problemcounts16$Var1[1]`** with `r prob
 # The World's Hardest Boulder Problems
 
 ```{r, echo=FALSE}
-#kable(mydata[,1:7], caption = "The World’s Hardest Boulder Problems")
-DT::datatable(mydata[,1:7], colnames = c('Route Name', 'Climber', 'VGrade', 'FA', 'Country', 'Area', 'Date'), options = list(pageLength = 900, autoWidth = TRUE))
+
+DT::datatable(mydata[,1:8], colnames = c('Route Name', 'Climber', 'Consensus VGrade', 'FA', 'Country', 'Area', 'Date', 'Suggested VGrade by Climber'), options = list(pageLength = 900, autoWidth = TRUE))
 ```
 # The World’s Hardest Boulder Problem
 
