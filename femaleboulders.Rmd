@@ -1,0 +1,150 @@
+---
+title: World's Hardest Boulder Problems Sent by Women (V13 and Up)
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(lubridate)
+library(ggplot2)
+library(knitr)
+require(dplyr) 
+library(DT)
+```
+
+**Table of Contents:**<br>
+[The World's Hardest Boulder Problems Sent by Women](#the-world\'s-hardest-boulder-problems-sent-by-women)<br>
+[V15 Club](#V15-Club)<br>
+[Who Is the Strongest Female Boulderer Ever?](#who-is-the-strongest-female-boulderer-ever\?)<br>
+[Trends Over Time](#trends-over-time)<br>
+[How Many Women Can Climb V13 or Higher?](#how-many-women-can-climb-v15-or-higher\?)<br>
+
+***Last updated:** January 2022. If you notice anything that is an error, or you would like to help improve the list, please let me know.*
+
+*[Note: this site and list are still under construction. Things I still need to do: <br>
+- Fix table of contents <br>
+- Add ability for users to comment]*
+
+
+```{r, include=FALSE}
+mydata <- read.csv("HardBouldersWomen.csv")
+mydata$Date <- format(as.Date(mdy(mydata$Date), "%m/%d/%Y"))
+mydata$Date <- format(mydata$Date, format = "%Y/%m/%d")
+
+```
+
+```{r, echo=FALSE}
+uniquebygrade <- mydata %>% count(Grade, Name, sort=TRUE) %>% count(Grade, sort=TRUE)
+```
+
+As of this writing, there appear to be `r uniquebygrade[uniquebygrade$Grade==13.0,]$n` climbs rated **V13 (8B)**, `r uniquebygrade[uniquebygrade$Grade==14.0,]$n` climbs rated **V14 (8B+)**, and `r uniquebygrade[uniquebygrade$Grade==15.0,]$n` climbs rated **V15 (8C)** that have had female ascents.
+
+```{r, echo=FALSE}
+problemcounts13 <- mydata %>% dplyr::filter(Grade == 13.0)
+problemcounts13 <- as.data.frame(table(problemcounts13$Route))
+problemcounts13 <- problemcounts13 %>% top_n(3,Freq) %>% arrange(desc(Freq))
+```
+The most climbed **V13** boulder is **`r problemcounts13$Var1[1]`** with `r problemcounts13$Freq[1]` ascents; followed by **`r problemcounts13$Var1[2]`** and **`r problemcounts13$Var1[3]`** with `r problemcounts13$Freq[2]` and `r problemcounts13$Freq[3]` ascents, respectively.
+
+```{r, echo=FALSE}
+problemcounts14 <- mydata %>% dplyr::filter(Grade == 14.0)
+problemcounts14 <- as.data.frame(table(problemcounts14$Route))
+problemcounts14 <- problemcounts14 %>% top_n(3,Freq) %>% arrange(desc(Freq))
+```
+
+The most climbed **V14** boulder is **`r problemcounts14$Var1[1]`** with `r problemcounts14$Freq[1]` ascents; followed by **`r problemcounts14$Var1[2]`** and **`r problemcounts14$Var1[3]`** with `r problemcounts14$Freq[2]` and `r problemcounts14$Freq[3]` ascents, respectively.
+
+[Here is a link](https://bit.ly/3FYSddM) to the Google Spreadsheet
+
+# The World's Hardest Boulder Problems Sent by Women
+
+```{r, echo=FALSE}
+#mydata2 <- mydata %>% group_by(Route) %>% mutate(count = n()) %>% mutate(repeated = case_when (count == 1 ~ "Unrepeated", count > 1 ~ "Repeated"))
+DT::datatable(mydata[,c(1:8)], colnames = c('Route Name', 'Climber', 'Consensus VGrade', 'FA', 'Country', 'Area', 'Date', 'Suggested VGrade by Climber'), options = list(pageLength = 900, autoWidth = TRUE))
+```
+# V15 Club
+
+Currently it seems as though four women have climbed a V15 boulder: Ashima Shirashi with two (!) - Sleepy Rave and Horizon; Kaddi Lehman with Kriptos; Mishka Ishi with Byaku-dou; and Oriane Bertone with Satan i helvete bas.
+
+# Who Is the Strongest Female Boulderer Ever?
+
+The following are two bar plots based on the data in the above list showing who has sent the most hard boulder problems and who has put up the most hard boulder first ascents (FAs).
+
+```{r, echo=FALSE}
+climbercounts <- table(mydata$Name)
+climbercounts <- climbercounts[climbercounts > 10]
+ggplot(as.data.frame(climbercounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + geom_text(aes(label=Freq), position=position_dodge(width=0.9), vjust=-0.25, size=3) +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) + ggtitle("Number of Hard Sends by Climber") +
+  labs(y="Number", x = "Climber")
+#ggsave("images/NumberbyClimber.png", width = 20, height = 20, units = "cm")
+```
+```{r, echo=FALSE}
+climberFA <- mydata %>% dplyr::filter(FA == "FA")
+climberFAcounts <- table(climberFA$Name)
+#climberFAcounts <- climberFAcounts[climberFAcounts > 1]
+ggplot(as.data.frame(climberFAcounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + geom_text(aes(label=Freq), position=position_dodge(width=0.9), vjust=-0.25, size=3) + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) + ggtitle("Number of Hard FA Sends by Climber") +
+  labs(y="Number", x = "Climber")
+#ggsave("images/NumberFAbyClimber.png", width = 20, height = 20, units = "cm")
+```
+```{r, echo=FALSE}
+strongest <- as.data.frame(table(mydata$Name))
+strongest <- strongest %>% top_n(3,Freq) %>% arrange(desc(Freq))
+strongestFA <- as.data.frame(table(climberFA$Name))
+strongestFA <- strongestFA %>% top_n(3,Freq) %>% arrange(desc(Freq))
+```
+
+The strongest climber by most hard boulder sends is `r strongest$Var1[1]` with `r strongest$Freq[1]` ascents; `r strongest$Freq[1] - strongest$Freq[2]` more than the `r strongest$Var1[2]` with the second most ascents. However, `r strongestFA$Var1[1]` has the most FAs with `r strongestFA$Freq[1]`; `r strongestFA$Freq[1] - strongestFA$Freq[2]` more than `r strongestFA$Var1[2]`, and an impressive amount of hard sends to her name. Finally, as stated above, Ashima Shirashi has climbed two V15s, along with Kaddi Lehman, Mishka Ishi, and Oriane Bertone who have climbed one each - something that neither Alex Puccio nor Isabelle Faus has done.
+
+# Trends Over Time
+
+```{r, echo=FALSE}
+#format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y")
+yearcounts <- table(format(as.Date(mydata$Date),"%Y"))
+ggplot(as.data.frame(yearcounts), aes(x=Var1, y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + ggtitle("Hard Boulder Sends by Year") +
+  labs(y="Number", x = "Year")
+#ggsave("images/Year.png", width = 20, height = 20, units = "cm")
+```
+
+Starting in 2002 with an ascent of Travesia de Balzola in Spain by Josune Bereziartu, the number of women to have climbed V13 or higher has consistently gone up, especially in 2014. I must have my number wrong because something crazy seems to have happened in 2020. Although with the pandemic and the olympics, it's hard to say.
+
+# How Many Women Can Climb V13 or Higher?
+
+```{r, echo=FALSE, warning=FALSE}
+uniquebygrade <- mydata %>% count(Grade, Name, sort=TRUE) %>% count(Grade, sort=TRUE)
+ggplot(uniquebygrade, aes(x=Grade, y = n)) + geom_bar(stat="identity", fill="blue", width=0.3) + 
+  geom_text(aes(label=n), position=position_dodge(width=0.9), vjust=-0.25, size=3) + 
+  ggtitle("Unique Ascentionists by Grade") +
+  labs(y="Number", x = "V Grade")
+#ggsave("images/Uniquebygrade.png", width = 20, height = 20, units = "cm")
+```
+```{r, echo=FALSE}
+uniquebygrade <- uniquebygrade %>% arrange(Grade)
+```
+At the moment, there are `r uniquebygrade[1,2]` women in the world that have sent V13. After which there is a steep drop off, with `r uniquebygrade[2,2]` having sent V14, and `r uniquebygrade[3,2]` having sent V15.
+
+
+# Which Countries Have the Hardest Boulder Problems for Women?
+
+```{r, echo=FALSE}
+countrycounts <- table(mydata$Country)
+countrycounts <- countrycounts[countrycounts > 12]
+ggplot(as.data.frame(countrycounts), aes(x=reorder(Var1, -Freq), y = Freq)) + geom_bar(stat="identity", fill="blue", width=0.5) + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  ggtitle("Number of Hard Sends by Country") +
+  labs(y="Number", x = "Country")
+#ggsave("images/NumberbyCountry.png", width = 20, height = 20, units = "cm")
+```
+
+The Top Countries with the hardest female sends are the United States, South Africa, Switzerland, and France.
+
+<br />
+<br />
+
+*In order to create this list, I used [8a.nu](www.8a.nu) clicked on their 'Ascents' tab, clicked 'Bouldering' for the discipline, clicked 'Female' for gender, filtered grades from 8b and higher, and copied the table:*
+
+*However, not all athlete's record their bouldering ascents in 8a.nu. Another great resource was [https://onbouldering.com/8b-senders-ladies-club/](https://onbouldering.com/8b-senders-ladies-club/).*
+
+*Finally, I then tried to standardize all entries, remove errors, and add in send dates. Ultimately this is still a work in progress, and if you see any errors, please reach out.*
+
+*Special shout-out to Andrew Leyland for extensive help in filling out the spreadsheet.*

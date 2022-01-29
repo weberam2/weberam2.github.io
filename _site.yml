@@ -7,8 +7,10 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Hard Boulders"
+    - text: "Hard Boulders (Men)"
       href: boulders.html
+    - text: "Hard Boulders (Women)"
+      href: femaleboulders.html
 output:
   html_document:
     theme: cosmo

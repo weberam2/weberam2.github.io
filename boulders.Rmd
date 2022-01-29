@@ -1,5 +1,5 @@
 ---
-title: The World's Hardest Boulder Problems
+title: The World's Hardest Boulder Problems Sent by Men (V15 and up)
 ---
 
 ```{r setup, include=FALSE}
@@ -14,17 +14,18 @@ library(DT)
 ```
 
 **Table of Contents:**<br>
-[The World's Hardest Boulder Problems](#the-world-s-hardest-boulder-problems)<br>
+[The World's Hardest Boulder Problems Sent by Men](#the-world-s-hardest-boulder-problems-by-men)<br>
 [The World’s Current Hardest Boulder Problem](#the-world-s-current-hardest-boulder-problem)<br>
-[Who Is the Best Boulderer Ever?](#who-is-the-best-boulderer-ever-)<br>
+[Who Is the Strongest Male Boulderer Ever?](#who-is-the-strongest-male-boulderer-ever-)<br>
 [Trends Over Time](#trends-over-time)<br>
-[How Many People Can Climb V15 or Higher?](#how-many-people-can-climb-v15-or-higher-)<br>
+[How Many Men Can Climb V15 or Higher?](#how-many-people-can-climb-v15-or-higher-)<br>
 [Which Countries Have the Hardest Boulder Problems?](#which-countries-have-the-hardest-boulder-problems-)<br>
 
 
 ***Last updated:** January 2022. If you notice anything that is an error, or you would like to help improve the list, please let me know.*
 
 *[Note: this site and list are still under construction. Things I still need to do: <br>
+- Fix table of contents <br>
 - Add ability for users to comment]*
 
 The following is an attempt to update [Alex Beale](https://www.99boulders.com/author/alex)'s fantastic list of [The World's Hardest Boulder Problems](https://www.99boulders.com/hardest-boulder-problems), which attempted to collect the hardest boulder problems with a lower cutoff grade of V15 (8C).
@@ -65,7 +66,7 @@ The most climbed **V16** boulder is **`r problemcounts16$Var1[1]`** with `r prob
 
 [Here is a link](https://bit.ly/3FYSddM) to the Google Spreadsheet
 
-# The World's Hardest Boulder Problems
+# The World's Hardest Boulder Problems Sent by Men
 
 ```{r, echo=FALSE}
 mydata2 <- mydata %>% group_by(Route) %>% mutate(count = n()) %>% mutate(repeated = case_when (count == 1 ~ "Unrepeated", count > 1 ~ "Repeated"))
@@ -79,7 +80,7 @@ Both problems have only one ascent. Nalle Hukkataival sent Burden of Dreams in O
 
 Two other problems have been graded V17, to then be downgraded. [The Big Island (sit)](https://climbing-history.org/climb/849/soudain-seul), first climbed by Simon Lorenzi in February 2021 as V17, has since been downgraded by Nico Pelorson in April 2021 (I have given this climb a grade of 16.5). [No Kpote Only](https://climbing-history.org/climb/827/no-kpote-only), first climbed by Charles Albert (barefoot!) in 2019 as V17, has seen two repeats, with the most recent suggesting a downgrade of V15 (Nico Pelorson again; I have recorded the grade as V15 here). 
 
-# Who Is the Best Boulderer Ever?
+# Who Is the Strongest Male Boulderer Ever?
 
 The following are two bar plots based on the data in the above list showing who has sent the most hard boulder problems and who has put up the most hard boulder first ascents (FAs).
 
@@ -126,7 +127,7 @@ It took two years from the first suggested V15 (Dreamtime (pre-break)) to a cons
 
 Nalle Hukkataival's [Burden of Dreams](https://climbing-history.org/climb/826/burden-of-dreams), first sent in 2016, has yet to see a repeat to confirm the grade (6 years and counting). Although, I have a sneaky suspicion we will see the first confirmation of a V17 with a repeat of [Return of the Sleepwalker](https://climbing-history.org/climb/1116/return-of-the-sleepwalker) sometime this year...(fingers crossed)
 
-# How Many People Can Climb V15 or Higher?
+# How Many Men Can Climb V15 or Higher?
 
 ```{r, echo=FALSE, warning=FALSE}
 uniquebygrade <- mydata %>% count(Grade, Name, sort=TRUE) %>% count(Grade, sort=TRUE)
