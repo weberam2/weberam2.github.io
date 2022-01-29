@@ -155,10 +155,11 @@ age <- function(dob, age.day = today(), units = "years", floor = TRUE) {
     if (floor) return(as.integer(floor(calc.age)))
     return(calc.age)
 }
+my_binwidth <- 1
 climbersagenow$age <- age(climbersagenow$Birthday)
 ggplot(climbersagenow, aes(x=age)) +
-  geom_histogram(aes(y=..density..), colour="black", fill="blue")+
-  geom_density(alpha=.2, fill="#FF6666") + 
+  geom_histogram(binwidth=my_binwidth, colour="black", fill="blue")+
+  geom_density(aes(y = ..density.. * (nrow(climbersagenow) * my_binwidth)), col = 2, alpha=.2, fill="#FF6666")+
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
   ggtitle("Strong Female Climbers Age Today") +
   labs(y="Count", x = "Age Today")+
@@ -185,8 +186,8 @@ climbersage <- climbersage %>% drop_na()
 climbersage$age <- age(climbersage$Birthday, climbersage$Date)
 
 ggplot(climbersage, aes(x=age)) +
-  geom_histogram(aes(y=..density..), colour="black", fill="blue")+
-  geom_density(alpha=.2, fill="#FF6666") + 
+  geom_histogram(binwidth=my_binwidth, colour="black", fill="blue")+
+  geom_density(aes(y = ..density.. * (nrow(climbersage) * my_binwidth)), col = 2, alpha=.2, fill="#FF6666")+
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
   ggtitle("Strong Female Climbers Age When They Sent") +
   labs(y="Count", x = "Age")+
