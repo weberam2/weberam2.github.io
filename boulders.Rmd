@@ -11,16 +11,17 @@ library(knitr)
 require(dplyr) 
 library(DT)
 #library(kableExtra)
+download.file('https://docs.google.com/spreadsheets/d/1smPVNfWnorZTUCITZOsKcWu2WkVdzBX-_U0qbeeUvB4/export?gid=660274014&format=csv', 'HardBoulders2.csv')
 ```
 
 **Table of Contents:**<br>
-[The World's Hardest Boulder Problems Sent by Men](#the-world-s-hardest-boulder-problems-by-men)<br>
-[The World’s Current Hardest Boulder Problem](#the-world-s-current-hardest-boulder-problem)<br>
-[Who Is the Strongest Male Boulderer Ever?](#who-is-the-strongest-male-boulderer-ever-)<br>
-[Trends Over Time](#trends-over-time)<br>
-[How Many Men Can Climb V15 or Higher?](#how-many-people-can-climb-v15-or-higher-)<br>
-[Which Countries Have the Hardest Boulder Problems?](#which-countries-have-the-hardest-boulder-problems-)<br>
-
+[The World's Hardest Boulder Problems Sent by Men](#hardestproblems)<br>
+[The World’s Current Hardest Boulder Problem](#hardest)<br>
+[Who Is the Strongest Male Boulderer Ever?](#strongest)<br>
+[Trends Over Time](#trends)<br>
+[How Many Men Can Climb V15 or Higher?](#howmany)<br>
+[Which Countries Have the Hardest Boulder Problems?](#whichcountries)<br>
+[What About Age?](#age)
 
 ***Last updated:** January 2022. If you notice anything that is an error, or you would like to help improve the list, please let me know.*
 
@@ -66,13 +67,13 @@ The most climbed **V16** boulder is **`r problemcounts16$Var1[1]`** with `r prob
 
 [Here is a link](https://bit.ly/3FYSddM) to the Google Spreadsheet
 
-# The World's Hardest Boulder Problems Sent by Men
+# The World's Hardest Boulder Problems Sent by Men {#hardestproblems}
 
 ```{r, echo=FALSE}
 mydata2 <- mydata %>% group_by(Route) %>% mutate(count = n()) %>% mutate(repeated = case_when (count == 1 ~ "Unrepeated", count > 1 ~ "Repeated"))
 DT::datatable(mydata2[,c(1:8,12)], colnames = c('Route Name', 'Climber', 'Consensus VGrade', 'FA', 'Country', 'Area', 'Date', 'Suggested VGrade by Climber', 'Repeated?'), options = list(pageLength = 900, autoWidth = TRUE))
 ```
-# The World’s Hardest Boulder Problem
+# The World’s Hardest Boulder Problem {#hardest}
 
 Based solely on grade, the title of world’s hardest boulder problem is currently shared by two problems: [Burden of Dreams](https://climbing-history.org/climb/826/burden-of-dreams) and [Return of the Sleepwalker](https://climbing-history.org/climb/1116/return-of-the-sleepwalker). Both are currently graded V17 (9A).
 
@@ -80,7 +81,7 @@ Both problems have only one ascent. Nalle Hukkataival sent Burden of Dreams in O
 
 Two other problems have been graded V17, to then be downgraded. [The Big Island (sit)](https://climbing-history.org/climb/849/soudain-seul), first climbed by Simon Lorenzi in February 2021 as V17, has since been downgraded by Nico Pelorson in April 2021 (I have given this climb a grade of 16.5). [No Kpote Only](https://climbing-history.org/climb/827/no-kpote-only), first climbed by Charles Albert (barefoot!) in 2019 as V17, has seen two repeats, with the most recent suggesting a downgrade of V15 (Nico Pelorson again; I have recorded the grade as V15 here). 
 
-# Who Is the Strongest Male Boulderer Ever?
+# Who Is the Strongest Male Boulderer Ever? {#strongest}
 
 The following are two bar plots based on the data in the above list showing who has sent the most hard boulder problems and who has put up the most hard boulder first ascents (FAs).
 
@@ -110,7 +111,7 @@ strongestFA <- strongestFA %>% top_n(3,Freq) %>% arrange(desc(Freq))
 
 The strongest climber by most hard boulder sends is `r strongest$Var1[1]` with `r strongest$Freq[1]` ascents; `r strongest$Freq[1] - strongest$Freq[2]` more than the `r strongest$Var1[2]` with the second most ascents. However, `r strongestFA$Var1[1]` has the most FAs with `r strongestFA$Freq[1]`; `r strongestFA$Freq[1] - strongestFA$Freq[2]` more than `r strongestFA$Var1[2]`, and an impressive amount of hard sends to his name. Finally, both Daniel Woods and Nalle Hukkataival are the only climbers to have sent a V17.
 
-# Trends Over Time
+# Trends Over Time {#trends}
 
 ```{r, echo=FALSE}
 #format(as.Date(mydata$Date, format="%m/%d/%Y"),"%Y")
@@ -127,7 +128,7 @@ It took two years from the first suggested V15 (Dreamtime (pre-break)) to a cons
 
 Nalle Hukkataival's [Burden of Dreams](https://climbing-history.org/climb/826/burden-of-dreams), first sent in 2016, has yet to see a repeat to confirm the grade (6 years and counting). Although, I have a sneaky suspicion we will see the first confirmation of a V17 with a repeat of [Return of the Sleepwalker](https://climbing-history.org/climb/1116/return-of-the-sleepwalker) sometime this year...(fingers crossed)
 
-# How Many Men Can Climb V15 or Higher?
+# How Many Men Can Climb V15 or Higher? {#howmany}
 
 ```{r, echo=FALSE, warning=FALSE}
 uniquebygrade <- mydata %>% count(Grade, Name, sort=TRUE) %>% count(Grade, sort=TRUE)
@@ -144,7 +145,7 @@ At the moment, there are more than 200 climbers in the world that have sent V15.
 
 With hard boulders, downgrading is common, as new climbers come along and find better/easier beta. Nalle wrote a fantastic [blog post](https://nalle-hukkataival.blogspot.com/2010/03/bouldering-grades-everything-is-average.html) back in 2010 giving his thoughts on hard boulder grades.
 
-# Which Countries Have the Hardest Boulder Problems?
+# Which Countries Have the Hardest Boulder Problems? {#whichcountries}
 
 ```{r, echo=FALSE}
 countrycounts <- table(mydata$Country)
@@ -156,6 +157,63 @@ ggplot(as.data.frame(countrycounts), aes(x=reorder(Var1, -Freq), y = Freq)) + ge
 ```
 
 The Top 5 Countries with the hardest sends are Switzerland, the United States, France, Japan, and South Africa.
+
+# What About Age? {#age}
+
+What is the age of strong male climbers today?
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+climbersagenow <- mydata[,c(2,11)]
+climbersagenow <- climbersagenow[!duplicated(climbersagenow$Name), ]
+climbersagenow$Birthday <- as.Date(climbersagenow$Birthday, format='%m/%d/%Y')
+climbersagenow <- climbersagenow %>% drop_na()
+age <- function(dob, age.day = today(), units = "years", floor = TRUE) {
+    calc.age = interval(dob, age.day) / duration(num = 1, units = units)
+    if (floor) return(as.integer(floor(calc.age)))
+    return(calc.age)
+}
+climbersagenow$age <- age(climbersagenow$Birthday)
+ggplot(climbersagenow, aes(x=age)) +
+  geom_histogram(aes(y=..density..), colour="black", fill="blue")+
+  geom_density(alpha=.2, fill="#FF6666") + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  ggtitle("Strong Male Climbers Age Today") +
+  labs(y="Count", x = "Age Today")+
+  scale_x_continuous(breaks=seq(10,60,5), limits=c(10,60))
+
+getmode <- function(v) {
+   uniqv <- unique(v)
+   uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+```
+
+The mean, median and mode age of strong male climbers today is `r round(mean(climbersagenow$age))`, `r round(median(climbersagenow$age))`, and `r getmode(climbersagenow$age)`, respectively.
+
+The youngest V15 climber today is `r min(climbersagenow$age)` years old.
+The oldest V15 climber today is `r max(climbersagenow$age)` years old.
+
+## What about stats on how old they are when they send the route?
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+climbersage <- mydata[,c(2,7,11)]
+climbersage$Date <- as.Date(climbersage$Date, format = '%Y-%m-%d')
+climbersage$Birthday <- as.Date(climbersage$Birthday, format = '%m/%d/%Y')
+climbersage <- climbersage %>% drop_na()
+climbersage$age <- age(climbersage$Birthday, climbersage$Date)
+
+ggplot(climbersage, aes(x=age)) +
+  geom_histogram(aes(y=..density..), colour="black", fill="blue")+
+  geom_density(alpha=.2, fill="#FF6666") + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  ggtitle("Strong Male Climbers Age When They Sent") +
+  labs(y="Count", x = "Age")+
+  scale_x_continuous(breaks=seq(10,60,5), limits=c(10,60))
+```
+
+The mean, median and mode age of strong male climbers when they sent is `r round(mean(climbersage$age))`, `r round(median(climbersage$age))`, and `r getmode(climbersage$age)`, respectively.
+
+The youngest age to have climbed V15 or higher is `r min(climbersage$age)` years old.
+The oldest age to have climbed V15 or higher is `r max(climbersage$age)` years old.
 
 <br />
 <br />
