@@ -63,10 +63,10 @@ The most climbed **V14** boulder is **`r problemcounts14$Var1[1]`** with `r prob
 # The World's Hardest Boulder Problems Sent by Women {#hardest}
 
 ```{r, echo=FALSE}
-#mydata2 <- mydata %>% group_by(Route) %>% mutate(count = n()) %>% mutate(repeated = case_when (count == 1 ~ "Unrepeated", count > 1 ~ "Repeated"))
-DT::datatable(mydata[,c(1:8)], colnames = c('Route Name', 'Climber', 'Consensus VGrade', 'FA', 'Country', 'Area', 'Date', 'Suggested VGrade by Climber'), options = list(pageLength = 900, autoWidth = TRUE))
+
+DT::datatable(mydata[,c(1:8)], colnames = c('Route Name', 'Climber', 'Consensus VGrade', 'FA', 'Country', 'Area', 'Date', 'Suggested VGrade by Climber'), options = list(order = list(list(0, 'asc'), list(1,'asc')), pageLength = 300, autoWidth = TRUE, columnDefs = list(list(className = 'dt-center', targets = 0:7))), rownames = FALSE)
 ```
-# V15 Club {#v15}
+# V15 Club {#V15}
 
 Currently it seems as though four women have climbed a V15 boulder: Ashima Shirashi with two (!) - Sleepy Rave and Horizon; Kaddi Lehman with Kriptos; Mishka Ishi with Byaku-dou; and Oriane Bertone with Satan i helvete bas.
 
