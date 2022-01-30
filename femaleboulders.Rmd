@@ -20,7 +20,8 @@ download.file('https://docs.google.com/spreadsheets/d/1smPVNfWnorZTUCITZOsKcWu2W
 [Trends Over Time](#trends)<br>
 [How Many Women Can Climb V13 or Higher?](#howmany)<br>
 [Which Countries Have the Hardest Boulder Problems for Women?](#country)<br>
-[What About Age?](#age)
+[What About Age?](#age)<br>
+[Height?](#height)
 
 ***Last updated:** January 2022. If you notice anything that is an error, or you would like to help improve the list, please let me know.*
 
@@ -198,6 +199,28 @@ The mean, median and mode age of strong female climbers when they sent is `r rou
 
 The youngest age to have climbed V13 or higher is `r min(climbersage$age)` years old.
 The oldest age to have climbed V13 or higher is `r max(climbersage$age)` years old.
+
+# Climber's Height {#height}
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+climbersheight <- mydata[,c(2,12)]
+climbersheight <- climbersheight %>% drop_na()
+climbersheight <- as.data.frame(unique(climbersheight))
+my_binwidth <- 0.025
+ggplot(climbersheight, aes(x=Height..m.)) +
+  geom_histogram(binwidth=my_binwidth, colour="black", fill="blue")+
+  geom_density(aes(y = ..density.. * (nrow(climbersheight) * my_binwidth)), col = 2, alpha=.2, fill="#FF6666")+
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  ggtitle("Strong Female Climbers Height") +
+  labs(y="Count", x = "Height (m)")#+
+  #scale_x_continuous(breaks=seq(10,60,5), limits=c(10,60))
+  
+```
+
+The mean, median and mode height of strong female climbers is `r round(mean(climbersheight$Height..m.),2)`, `r round(median(climbersheight$Height..m.),2)`, and `r getmode(climbersheight$Height..m.)`, respectively.
+
+The shortest height to have climbed V13 or higher is `r min(climbersheight$Height..m.)` meters.
+The tallest height to have climbed V13 or higher is `r max(climbersheight$Height..m.)` meters.
 
 <br />
 <br />
