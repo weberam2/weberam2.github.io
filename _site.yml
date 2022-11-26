@@ -7,6 +7,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Adventures"
+      href: adventures.html
     - text: "Hard Boulders (Men)"
       href: boulders.html
     - text: "Hard Boulders (Women)"
