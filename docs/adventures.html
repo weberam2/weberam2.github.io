@@ -11,7 +11,7 @@
 
 
 
-<title>adventures.knit</title>
+<title>Alex Weber’s Adventure Resume</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -222,6 +225,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -229,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -269,16 +351,15 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Alex Weber’s Adventure Resume</h1>
 
 </div>
 
 
-<div id="alex-webers-adventure-resume" class="section level1">
-<h1>Alex Weber’s Adventure Resume</h1>
-<div id="rock-climbing" class="section level2">
-<h2>Rock Climbing</h2>
-<div id="route-development---traditional-climbs" class="section level3">
-<h3>Route Development - Traditional Climbs</h3>
+<div id="rock-climbing" class="section level1">
+<h1>Rock Climbing</h1>
+<div id="route-development---traditional-climbs" class="section level2">
+<h2>Route Development - Traditional Climbs</h2>
 <ul>
 <li><a
 href="https://www.mountainproject.com/route/109251092/mashed-bananas">Mashed
@@ -290,8 +371,8 @@ Travels from the Snow to the Dark</a> 5.10a, Paint Mountain, Yukon <span
 style="float:right">2015</span></li>
 </ul>
 </div>
-<div id="alpine-routes" class="section level3">
-<h3>Alpine Routes</h3>
+<div id="alpine-routes" class="section level2">
+<h2>Alpine Routes</h2>
 <p>[note: Routes in green are part of the Classic/Updated list of the
 Fifty Classic Climbs of North America]</p>
 <ul>
@@ -375,8 +456,8 @@ style="float:right">2015</span><br />
 [<a href="https://youtu.be/MHT1lKAq8aA?t=138">Youtube</a>]</p></li>
 </ul>
 </div>
-<div id="multi-pitch-rock-climbs" class="section level3">
-<h3>Multi-pitch Rock Climbs</h3>
+<div id="multi-pitch-rock-climbs" class="section level2">
+<h2>Multi-pitch Rock Climbs</h2>
 <ul>
 <li><p>Yankee Clipper 15p sport 5.12a, The Jungle, El Potrero Chico,
 Mexico</p></li>
@@ -439,8 +520,8 @@ USA <span style="float:right">2022</span><br />
 <li><p>Banana Peel 8p 5.7 PG13 by headlamp, Apron, Squamish, BC</p></li>
 </ul>
 </div>
-<div id="redpoint---sport-climbs" class="section level3">
-<h3>Redpoint - Sport Climbs</h3>
+<div id="redpoint---sport-climbs" class="section level2">
+<h2>Redpoint - Sport Climbs</h2>
 <ul>
 <li><p>Lox Stock and Two Smolts on Bagels 5.12a, Paradise Valley,
 Squamish, BC</p></li>
@@ -454,7 +535,6 @@ BC</p></li>
 <li><p>Pin Heads from Space 5.11b, Rock Gardens, Yukon</p></li>
 <li><p>White on Rice 5.11b, White Mountain, Yukon</p></li>
 </ul>
-</div>
 </div>
 <div id="on-sight---sport-climbs" class="section level2">
 <h2>On-sight - Sport Climbs</h2>
@@ -506,8 +586,9 @@ KY</p></li>
 <li><p>Basqueing in Your Affection 5.11a, Golden Canyon, Yukon</p></li>
 <li><p>Trash Pump 5.11a, White Mountain, Yukon</p></li>
 </ul>
-<div id="redpoint---traditional-climbs" class="section level3">
-<h3>Redpoint - Traditional Climbs</h3>
+</div>
+<div id="redpoint---traditional-climbs" class="section level2">
+<h2>Redpoint - Traditional Climbs</h2>
 <ul>
 <li><p>Yorkshire Gripper 5.11b, Smoke Bluffs, Squamish, BC</p></li>
 <li><p>Partners in Crime 5.11a, Smoke Bluffs, Squamish, BC</p></li>
@@ -520,8 +601,8 @@ KY</p></li>
 <li><p>Split Beaver 5.10b (OW), Smoke Bluffs, Squamish, BC</p></li>
 </ul>
 </div>
-<div id="on-sight---traditional-climbs" class="section level3">
-<h3>On-sight - Traditional Climbs</h3>
+<div id="on-sight---traditional-climbs" class="section level2">
+<h2>On-sight - Traditional Climbs</h2>
 <ul>
 <li><p>Climb and Punishment 5.10d, Smoke Bluffs, Squamish, BC</p></li>
 <li><p>Who’s Your Daddy? 5.10d Mixed, Nightmare Wall, Squamish,
@@ -568,8 +649,8 @@ WA</p></li>
 <li><p>Dr. Carl 5.10-, Reservoir Wall, Indian Creek, Utah</p></li>
 </ul>
 </div>
-<div id="aid" class="section level3">
-<h3>Aid</h3>
+<div id="aid" class="section level2">
+<h2>Aid</h2>
 <ul>
 <li><p>Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA
 <span style="float:right">2022</span><br />
@@ -582,8 +663,8 @@ WA</p></li>
 </p></li>
 </ul>
 </div>
-<div id="bouldering" class="section level3">
-<h3>Bouldering</h3>
+<div id="bouldering" class="section level2">
+<h2>Bouldering</h2>
 <ul>
 <li><p>Bonspiel V5, Halfway Log Dump, Ontario</p></li>
 <li><p>Fire Breather V5, D&amp;D Boulder, Yukon</p></li>
@@ -593,8 +674,8 @@ WA</p></li>
 </ul>
 </div>
 </div>
-<div id="ice-climbing" class="section level2">
-<h2>Ice Climbing</h2>
+<div id="ice-climbing" class="section level1">
+<h1>Ice Climbing</h1>
 <ul>
 <li><p>Curtain Call 120m WI6, Rampart Creek, AB <span
 style="float:right">2020</span><br />
@@ -657,8 +738,8 @@ style="float:right">2022</span><br />
 </p></li>
 </ul>
 </div>
-<div id="highline" class="section level2">
-<h2>Highline</h2>
+<div id="highline" class="section level1">
+<h1>Highline</h1>
 <ul>
 <li><p>Lost Arrow Spire, 15m line, did not finish set-up (two man team),
 Yosemite, California, USA <span style="float:right">2022</span><br />
@@ -680,8 +761,8 @@ style="float:right">2017</span><br />
 </p></li>
 </ul>
 </div>
-<div id="scrambles" class="section level2">
-<h2>Scrambles</h2>
+<div id="scrambles" class="section level1">
+<h1>Scrambles</h1>
 <ul>
 <li><p>Sky Pilot, Squamish, BC <span
 style="float:right">2022</span><br />
@@ -719,8 +800,8 @@ style="float:right">2019</span><br />
 </p></li>
 </ul>
 </div>
-<div id="hiking" class="section level2">
-<h2>Hiking</h2>
+<div id="hiking" class="section level1">
+<h1>Hiking</h1>
 <ul>
 <li><p>Tenquille Lake, 30km, Pemberton, BC - three days (day hike to
 Ogre Lake on second day) <span style="float:right">2022</span><br />
@@ -771,8 +852,8 @@ style="float:right">2014</span><br />
 </p></li>
 </ul>
 </div>
-<div id="skiing" class="section level2">
-<h2>Skiing</h2>
+<div id="skiing" class="section level1">
+<h1>Skiing</h1>
 <ul>
 <li><p>Claire Kees Hut <span style="float:right">2022</span><br />
 </p></li>
@@ -781,8 +862,8 @@ style="float:right">2014</span><br />
 </p></li>
 </ul>
 </div>
-<div id="running" class="section level2">
-<h2>Running</h2>
+<div id="running" class="section level1">
+<h1>Running</h1>
 <ul>
 <li><p>ForeTrails Hallow’s Eve, North Vancouver, BC; 21.1k trail race
 with 866m ascent - 2.5hrs <span style="float:right">2022</span><br />
@@ -849,8 +930,8 @@ style="float:right">2012</span><br />
 </p></li>
 </ul>
 </div>
-<div id="cycling" class="section level2">
-<h2>Cycling</h2>
+<div id="cycling" class="section level1">
+<h1>Cycling</h1>
 <ul>
 <li><p>Early Bird Special - Fixed Gear - 210km with 2130m ascent, 8hrs
 59mins - Vancouver, BC <span style="float:right">2021</span><br />
@@ -891,8 +972,8 @@ Ontario <span style="float:right">2013</span><br />
 </p></li>
 </ul>
 </div>
-<div id="canoeing" class="section level2">
-<h2>Canoeing</h2>
+<div id="canoeing" class="section level1">
+<h1>Canoeing</h1>
 <ul>
 <li><p>Powell Forest Canoe Route - 57 km, 8 lakes, 5 portages - 5 days
 <span style="float:right">2022</span><br />
@@ -908,10 +989,11 @@ style="float:right">2013</span> </p></li>
 <li><p>Various multi-day canoe routes in Algonquin</p></li>
 </ul>
 </div>
+
+
+
 </div>
-
-
-
+</div>
 
 </div>
 
@@ -944,6 +1026,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

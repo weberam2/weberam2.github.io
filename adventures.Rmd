@@ -1,13 +1,21 @@
-# Alex Weber's Adventure Resume
+---
+title: Alex Weber's Adventure Resume
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+---
 
-## Rock Climbing
+# Rock Climbing
 
-### Route Development - Traditional Climbs
+## Route Development - Traditional Climbs
 
 -   [Mashed Bananas](https://www.mountainproject.com/route/109251092/mashed-bananas) 5.10b/c, Golden Canyon, Yukon [2015]{style="float:right"}
 -   [Sound Travels from the Snow to the Dark](https://www.mountainproject.com/route/111056768/sound-travels-from-the-snow-to-the-dark) 5.10a, Paint Mountain, Yukon [2015]{style="float:right"}
 
-### Alpine Routes
+## Alpine Routes
 
 [note: Routes in green are part of the Classic/Updated list of the Fifty Classic Climbs of North America]
 
@@ -57,7 +65,7 @@
 -   [West Ridge](https://www.mountainproject.com/route/105869393/west-ridge) 455m III 5.4 free solo, Pigeon Spire, Bugaboos, BC [2015]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=138)]
 
-### Multi-pitch Rock Climbs
+## Multi-pitch Rock Climbs
 
 -   Yankee Clipper 15p sport 5.12a, The Jungle, El Potrero Chico, Mexico 
 
@@ -127,7 +135,7 @@
 
 -   Banana Peel 8p 5.7 PG13 by headlamp, Apron, Squamish, BC
 
-### Redpoint - Sport Climbs 
+## Redpoint - Sport Climbs 
 
 -   Lox Stock and Two Smolts on Bagels 5.12a, Paradise Valley, Squamish, BC 
 
@@ -223,7 +231,7 @@
 
 -   Trash Pump 5.11a, White Mountain, Yukon
 
-### Redpoint - Traditional Climbs 
+## Redpoint - Traditional Climbs 
 
 -   Yorkshire Gripper 5.11b, Smoke Bluffs, Squamish, BC 
 
@@ -243,7 +251,7 @@
 
 -   Split Beaver 5.10b (OW), Smoke Bluffs, Squamish, BC
 
-### On-sight - Traditional Climbs 
+## On-sight - Traditional Climbs 
 
 -   Climb and Punishment 5.10d, Smoke Bluffs, Squamish, BC 
 
@@ -321,7 +329,7 @@
 
 -   Dr. Carl 5.10-, Reservoir Wall, Indian Creek, Utah
 
-### Aid 
+## Aid 
 
 -   Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA [2022]{style="float:right"}\
 
@@ -330,7 +338,7 @@
 
 -   Cannabis Wall C2, first two pitches, Tantalus Wall, Squamish, BC [2022]{style="float:right"}\
 
-### Bouldering 
+## Bouldering 
 
 - Bonspiel V5, Halfway Log Dump, Ontario 
 
@@ -342,7 +350,7 @@
 
 - Jenna's Jewelry V4, Kraft Boulders, Red Rock, NV
 
-## Ice Climbing 
+# Ice Climbing 
 
 -   Curtain Call 120m WI6, Rampart Creek, AB [2020]{style="float:right"}\
     [note: second; not clean]
@@ -413,7 +421,7 @@
 
 -   Norvan Falls, Vancouver, BC [2022]{style="float:right"}\
 
-## Highline
+# Highline
 
 -   Lost Arrow Spire, 15m line, did not finish set-up (two man team), Yosemite, California, USA [2022]{style="float:right"}\
 
@@ -425,7 +433,7 @@
 
 -   Original Line 30m long / 200m high, North Gully, The Chief, Squamish, BC (Independent setup. Only managed to walk 5 steps) [2017]{style="float:right"}\
 
-## Scrambles
+# Scrambles
 
 -   Sky Pilot, Squamish, BC  [2022]{style="float:right"}\
 
@@ -451,7 +459,7 @@
 
 -   Golden Ears, BC [April 2016]{style="float:right"}\
 
-## Hiking
+# Hiking
 
 -   Tenquille Lake, 30km, Pemberton, BC - three days (day hike to Ogre Lake on second day) [2022]{style="float:right"}\
 
@@ -482,13 +490,13 @@
 
 -   La Cloche Silhouette Trail, Killarney Provincial Park, ON; 80km - 30hrs [2013]{style="float:right"}\
 
-## Skiing
+# Skiing
 
 -   Claire Kees Hut [2022]{style="float:right"}\
 
 -   Garibaldi Neve Traverse, 40km with 1,750m of ascent - two days [2018]{style="float:right"}\
 
-## Running
+# Running
 
 -   ForeTrails Hallow's Eve, North Vancouver, BC; 21.1k trail race with 866m ascent - 2.5hrs [2022]{style="float:right"}\
 
@@ -530,7 +538,7 @@
 
 -   Around the Bay Road Race; 30km - 2hr 38mins [2012]{style="float:right"}\
 
-## Cycling
+# Cycling
 
 -   Early Bird Special - Fixed Gear - 210km with 2130m ascent, 8hrs 59mins - Vancouver, BC [2021]{style="float:right"}\
 
@@ -556,7 +564,7 @@
 
 -   160km Hamilton - Toronto - Hamilton; fixed gear bike - time? - Ontario [2013]{style="float:right"}\
 
-## Canoeing 
+# Canoeing 
 
 -   Powell Forest Canoe Route - 57 km, 8 lakes, 5 portages - 5 days [2022]{style="float:right"}\
 
