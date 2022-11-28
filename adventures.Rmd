@@ -36,30 +36,24 @@ output:
 
 -   [Paddle Flake Direct](https://www.mountainproject.com/route/105869571/paddle-flake-direct) 150m III 5p 5.10, Crescent Spire, Bugaboos, BC [2015]{style="float:right"}\
 
--   [Direct North Buttress](https://www.mountainproject.com/route/112828257/direct-north-buttress) 667m V 21p 5.10-, Bear Mountain, North Cascades, WA
-    [[Youtube](https://www.youtube.com/watch?v=0MRtQ1rg4oc)]
+-   [Direct North Buttress](https://www.mountainproject.com/route/112828257/direct-north-buttress) 667m V 21p 5.10-, Bear Mountain, North Cascades, WA [[Youtube](https://www.youtube.com/watch?v=0MRtQ1rg4oc)]
 
--   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, North Vancouver, BC
-    [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)]
+-   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)]
 
--   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Fraser Valley Area, BC
-    [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)]
+-   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)]
 
--   [Ensawkwatch Enchainment](https://www.mountainproject.com/route/113544618/ensawkwatch-enchainment-d) 5km III 18p 5.9 var., North & South Nesakwatch Spires & Mt. Rexford, Chilliwack, BC
-    [[Youtube](https://www.youtube.com/watch?v=RCvaISGolLM)]
+-   [Ensawkwatch Enchainment](https://www.mountainproject.com/route/113544618/ensawkwatch-enchainment-d) 5km III 18p 5.9 var., North & South Nesakwatch Spires & Mt. Rexford, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=RCvaISGolLM)]
 
--   [Northeast Buttress](https://www.mountainproject.com/route/106108831/northeast-buttress) V 25p 5.9, Slesse Mountain, Chilliwack, BC
-    [[Youtube](https://www.youtube.com/watch?v=zCY_Sxgihho)]
+-   [Northeast Buttress](https://www.mountainproject.com/route/106108831/northeast-buttress) V 25p 5.9, Slesse Mountain, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=zCY_Sxgihho)]
 
 -   [Escape Velocity](https://www.mountainproject.com/route/111849325/escape-velocity) 135m 7p 5.9-, Mt Habrich, Squamish, BC
 
 -   [Northeast Ridge](https://www.mountainproject.com/route/105889511/north-east-ridge) 455m IV 10p 5.9 var., Bugaboo Spire, Bugaboos, BC [2015]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=17)]
 
--   [NE Buttress](https://www.mountainproject.com/route/119444837/northeast-buttress) 400m 10p 5.6, West Lion, North Vancouver, BC
-    [[Youtube](https://www.youtube.com/watch?v=Z1a7XdPQ7Zo)]
+-   [NE Buttress](https://www.mountainproject.com/route/119444837/northeast-buttress) 400m 10p 5.6, West Lion, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=Z1a7XdPQ7Zo)]
 
--   [North Ridge](https://www.mountainproject.com/route/119050077/north-ridge) 600m III, 5.4, Tricouni, Whistler, BC  [2021]{style="float:right"}\
+-   [North Ridge](https://www.mountainproject.com/route/119050077/north-ridge) 600m III, 5.4, Tricouni, Whistler, BC [2021]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=Dui82abXbdY)]
 
 -   [West Ridge](https://www.mountainproject.com/route/105869393/west-ridge) 455m III 5.4 free solo, Pigeon Spire, Bugaboos, BC [2015]{style="float:right"}\
@@ -67,290 +61,290 @@ output:
 
 ## Multi-pitch Rock Climbs
 
--   Yankee Clipper 15p sport 5.12a, The Jungle, El Potrero Chico, Mexico 
+-   Yankee Clipper 15p sport 5.12a, The Jungle, El Potrero Chico, Mexico
 
--   Borderline / Angel's Crest / High Plains Drifter 14p trad 5.11c, The Chief, Squamish BC 
+-   Borderline / Angel's Crest / High Plains Drifter 14p trad 5.11c, The Chief, Squamish BC
 
--   Gulag Archipelago 4p sport 5.11c, Red Wall, Smith Rock, Oregon 
+-   Gulag Archipelago 4p sport 5.11c, Red Wall, Smith Rock, Oregon
 
--   New Life 5p trad 5.11b, North Walls, Squamish, BC 
+-   New Life 5p trad 5.11b, North Walls, Squamish, BC
 
--   Fogducker trad 4p 5.11a, Slhanay, Squamish, BC 
+-   Fogducker trad 4p 5.11a, Slhanay, Squamish, BC
 
--   Wonderful Thing About Tiggers trad 7 p 5.11a, Fluffy Kitten Wall, Squamish, BC 
+-   Wonderful Thing About Tiggers trad 7 p 5.11a, Fluffy Kitten Wall, Squamish, BC
 
--   The Grand Wall 9p trad 5.11a A0, The Chief, Squamish, BC 
+-   The Grand Wall 9p trad 5.11a A0, The Chief, Squamish, BC
 
--   Cruel Shoes into Grand Wall 12p trad 5.11a A0, The Chief, Squamish, BC 
+-   Cruel Shoes into Grand Wall 12p trad 5.11a A0, The Chief, Squamish, BC
 
--   Capilano Classic 3p trad 5.11a, Vancouver, BC 
+-   Capilano Classic 3p trad 5.11a, Vancouver, BC
 
--   Krimo Gold 5p trad 5.11a, The Chief, Squamish, BC 
+-   Krimo Gold 5p trad 5.11a, The Chief, Squamish, BC
 
--   Estrallita 12p sport 5.11a, La Estrallas, El Potrero Chico, Mexico 
+-   Estrallita 12p sport 5.11a, La Estrallas, El Potrero Chico, Mexico
 
 -   Guaranteed Rugged 33p sport 5.10d (on-sight), Marble Canyon, BC, Canada [2022]{style="float:right"}\
     [note: longest multi-pitch sport climb in North America?]
 
--   Photophobia 5p trad 5.10d, Slhanay, Squamish BC 
+-   Photophobia 5p trad 5.10d, Slhanay, Squamish BC
 
--   Pipeline 4p trad 5.10d off-width, Slhanay, Squamish, BC 
+-   Pipeline 4p trad 5.10d off-width, Slhanay, Squamish, BC
 
--   Right Wing 5p trad 5.10d PG13, Slhanay, Squamish, BC 
+-   Right Wing 5p trad 5.10d PG13, Slhanay, Squamish, BC
 
--   The Great Game 4p trad 5.10d (on-sight), Slhanay, Squamish, BC 
+-   The Great Game 4p trad 5.10d (on-sight), Slhanay, Squamish, BC
 
--   Borderline / Angel's Crest 15p trad 5.10d (red-point), The Chief, Squamish, BC 
+-   Borderline / Angel's Crest 15p trad 5.10d (red-point), The Chief, Squamish, BC
 
--   Sunset Strip 12p trad 5.10d, Grand Wall, Squamish, BC 
+-   Sunset Strip 12p trad 5.10d, Grand Wall, Squamish, BC
 
--   Humanality 6p sport 5.10d (on-sight), Tonsai Wall, Railay, Thailand 
+-   Humanality 6p sport 5.10d (on-sight), Tonsai Wall, Railay, Thailand
 
--   Crystal Flame 4p sport 5.10d (on-sight), Candlestick Area, Railay, Thailand 
+-   Crystal Flame 4p sport 5.10d (on-sight), Candlestick Area, Railay, Thailand
 
--   Stairway to Heaven 16p sport 5.10d, Grand Wall, Squamish, BC 
+-   Stairway to Heaven 16p sport 5.10d, Grand Wall, Squamish, BC
 
--   Rock-On Direct / Ultimate Everything 13p trad 5.10c, The Chief, Squamish, BC 
+-   Rock-On Direct / Ultimate Everything 13p trad 5.10c, The Chief, Squamish, BC
 
 -   St. Vitus' Dance / Karen's Math / Memorial Crack / Squamish Buttress 13p trad 5.10c (on-sight), The Chief, Squamish, BC B
 
--   ulletheads East 4p trad 5.10c (on-sight), The Chief, Squamish, BC 
+-   ulletheads East 4p trad 5.10c (on-sight), The Chief, Squamish, BC
 
--   Treasure of Sierra Madres 7p sport 5.10c (on-sight), Mota Wall, El Potrero Chico, Mexico 
+-   Treasure of Sierra Madres 7p sport 5.10c (on-sight), Mota Wall, El Potrero Chico, Mexico
 
--   Over the Rainbow (5.10b var.) / Boomstick / Squamish Buttface (5.10a var.) 16p trad 5.10b (on-sight), The Chief, Squamish, BC 
+-   Over the Rainbow (5.10b var.) / Boomstick / Squamish Buttface (5.10a var.) 16p trad 5.10b (on-sight), The Chief, Squamish, BC
 
--   Black Orpheus 11p trad 5.10a (on-sight), Oak Creek Canyon, Red Rock, Nevada 
+-   Black Orpheus 11p trad 5.10a (on-sight), Oak Creek Canyon, Red Rock, Nevada
 
--   Hairpin 4p trad 5.10a (on-sight), Papoose, Squamish, BC 
+-   Hairpin 4p trad 5.10a (on-sight), Papoose, Squamish, BC
 
--   Kor-Ingalls Route 4p 5.9 (on-sight), Castleton Tower, Utah 
+-   Kor-Ingalls Route 4p 5.9 (on-sight), Castleton Tower, Utah
 
 -   The Nose 28p trad and aid VI 5.9 C2, Yosemite, California, USA [2022]{style="float:right"}\
     [note: fixed to Sickle, climbed over four days and three nights, slept on summit]
 
--   Crimson Chrysalis 9p trad 5.8+ (on-sight), Cloud Tower, Red Rock, Nevada 
+-   Crimson Chrysalis 9p trad 5.8+ (on-sight), Cloud Tower, Red Rock, Nevada
 
 -   Royal Arches 15p III/IV 5.7 A0 (on-sight), Yosemite, California, USA [2022]{style="float:right"}\
 
 -   Banana Peel 8p 5.7 PG13 by headlamp, Apron, Squamish, BC
 
-## Redpoint - Sport Climbs 
+## Redpoint - Sport Climbs
 
--   Lox Stock and Two Smolts on Bagels 5.12a, Paradise Valley, Squamish, BC 
+-   Lox Stock and Two Smolts on Bagels 5.12a, Paradise Valley, Squamish, BC
 
--   Princess Eyes 5.11c/d, Phra Nang Beach, Railay, Thailand 
+-   Princess Eyes 5.11c/d, Phra Nang Beach, Railay, Thailand
 
--   Knucklehead 5.11c, Knucklehead, Cypress Falls, North Vancouver, BC 
+-   Knucklehead 5.11c, Knucklehead, Cypress Falls, North Vancouver, BC
 
--   Stumped 5.11c, Morning Glory, Skaha, BC 
+-   Stumped 5.11c, Morning Glory, Skaha, BC
 
--   Swamptart 5.11c, Vinyl Village, Yukon 
+-   Swamptart 5.11c, Vinyl Village, Yukon
 
--   Thumbstruck 5.11b, Grassy Glades, Skaha, BC 
+-   Thumbstruck 5.11b, Grassy Glades, Skaha, BC
 
--   Desperate Measures 5.11b, McIntyre Bluff, Yukon 
+-   Desperate Measures 5.11b, McIntyre Bluff, Yukon
 
--   Pin Heads from Space 5.11b, Rock Gardens, Yukon 
+-   Pin Heads from Space 5.11b, Rock Gardens, Yukon
 
 -   White on Rice 5.11b, White Mountain, Yukon
 
-## On-sight - Sport Climbs 
+## On-sight - Sport Climbs
 
--   Alevin and the Chipmunks 5.11c, Red Wall, Paradise Valley, Squamish, BC 
+-   Alevin and the Chipmunks 5.11c, Red Wall, Paradise Valley, Squamish, BC
 
--   Grin and Bear It 5.11c, Doctors' Wall, Skaha, BC 
+-   Grin and Bear It 5.11c, Doctors' Wall, Skaha, BC
 
--   Wings of Desire 5.11c, The White Wall, Skaha, BC 
+-   Wings of Desire 5.11c, The White Wall, Skaha, BC
 
--   Wingman 5.11b, Sully's Hangout, Vancouver, BC 
+-   Wingman 5.11b, Sully's Hangout, Vancouver, BC
 
--   Thriller Off the Void 5.11b Mixed, Murrin Park, Squamish, BC 
+-   Thriller Off the Void 5.11b Mixed, Murrin Park, Squamish, BC
 
--   Being There 5.11b, Morning Glory, Skaha, BC 
+-   Being There 5.11b, Morning Glory, Skaha, BC
 
--   Just Basking 5.11b, Diamondback, Skaha, BC 
+-   Just Basking 5.11b, Diamondback, Skaha, BC
 
--   Lightly Toasted 5.11b, Llama Wall, Smith Rock, Oregon 
+-   Lightly Toasted 5.11b, Llama Wall, Smith Rock, Oregon
 
--   The Compromise 5.11b, Rogue's Gallery, Squamish, BC 
+-   The Compromise 5.11b, Rogue's Gallery, Squamish, BC
 
--   Constant Gardener 5.11b, Sully's Hangout, Vancouver, BC 
+-   Constant Gardener 5.11b, Sully's Hangout, Vancouver, BC
 
--   Fuzzy Undercling 5.11b, Military Wall, Red River Gorge, KY 
+-   Fuzzy Undercling 5.11b, Military Wall, Red River Gorge, KY
 
--   Glitter Gulch 5.11b, Sweet Pain Wall, Red Rock, NV 
+-   Glitter Gulch 5.11b, Sweet Pain Wall, Red Rock, NV
 
--   Sour Pain 5.11b, Sweet Pain Wall, Red Rock, NV 
+-   Sour Pain 5.11b, Sweet Pain Wall, Red Rock, NV
 
--   My One Muscle 5.11a, Sully's Hangout, Vancouver, BC 
+-   My One Muscle 5.11a, Sully's Hangout, Vancouver, BC
 
--   Great Grandaddy mixed 5.11a, Murrin Park, Squamish, BC 
+-   Great Grandaddy mixed 5.11a, Murrin Park, Squamish, BC
 
--   Villainous 5.11a, Morning Glory, Skaha, BC 
+-   Villainous 5.11a, Morning Glory, Skaha, BC
 
--   Totally Villainous 5.11a, Morning Glory, Skaha, BC 
+-   Totally Villainous 5.11a, Morning Glory, Skaha, BC
 
--   Cytotoxic 5.11a, Diamondback, Skaha, BC 
+-   Cytotoxic 5.11a, Diamondback, Skaha, BC
 
--   Entering Relativity 5.11a, Llama Wall, Smith Rock, Oregon 
+-   Entering Relativity 5.11a, Llama Wall, Smith Rock, Oregon
 
--   Good Times 5.11a, Fern Hill, Squamish, BC 
+-   Good Times 5.11a, Fern Hill, Squamish, BC
 
--   Solitary Confinement 5.11a, Fern Hill, Squamish, BC 
+-   Solitary Confinement 5.11a, Fern Hill, Squamish, BC
 
--   Lubo 511a, Sully's Hangout, Vancouver, BC 
+-   Lubo 511a, Sully's Hangout, Vancouver, BC
 
--   Desert Dessert 5.11a, Middle East Wall, Frenchman Coulee, WA 
+-   Desert Dessert 5.11a, Middle East Wall, Frenchman Coulee, WA
 
--   Two Pumped Chumps 5.11a, Mota Wall, El Potrero Chico, Mexico 
+-   Two Pumped Chumps 5.11a, Mota Wall, El Potrero Chico, Mexico
 
--   Best Route in Minnesota, The 5.11a, Escher World, Railay, Thailand 
+-   Best Route in Minnesota, The 5.11a, Escher World, Railay, Thailand
 
--   Beauty and the Beast, 5.11a, Tonsai Roof, Railay, Thailand 
+-   Beauty and the Beast, 5.11a, Tonsai Roof, Railay, Thailand
 
--   No Name 5.11a, Dum's Kitchen, Railay, Thailand 
+-   No Name 5.11a, Dum's Kitchen, Railay, Thailand
 
--   Mutual of Omaha 5.11a, Wild Kingdom, Railay, Thailand 
+-   Mutual of Omaha 5.11a, Wild Kingdom, Railay, Thailand
 
--   Krabi! Krabi! 5.11a, The Defile Wall, Railay, Thailand 
+-   Krabi! Krabi! 5.11a, The Defile Wall, Railay, Thailand
 
--   Muay Thai 5.11a, Muay Thai, Railay, Thailand 
+-   Muay Thai 5.11a, Muay Thai, Railay, Thailand
 
--   Kratoy (Lady Boy) 5.11a, One-Two-Three, Railay, Thailand 
+-   Kratoy (Lady Boy) 5.11a, One-Two-Three, Railay, Thailand
 
--   Nut Cracker 5.11a, The Keep, Railay, Thailand 
+-   Nut Cracker 5.11a, The Keep, Railay, Thailand
 
--   Babo Does Thailand 5.11a, The Keep, Railay, Thailand 
+-   Babo Does Thailand 5.11a, The Keep, Railay, Thailand
 
--   Balance Beam 5.11a, Playground, Red River Gorge, KY 
+-   Balance Beam 5.11a, Playground, Red River Gorge, KY
 
--   Captain Blondie Sinks the Ship 5.11a, Boneyard, Red River Gorge, KY 
+-   Captain Blondie Sinks the Ship 5.11a, Boneyard, Red River Gorge, KY
 
--   Basqueing in Your Affection 5.11a, Golden Canyon, Yukon 
+-   Basqueing in Your Affection 5.11a, Golden Canyon, Yukon
 
 -   Trash Pump 5.11a, White Mountain, Yukon
 
-## Redpoint - Traditional Climbs 
+## Redpoint - Traditional Climbs
 
--   Yorkshire Gripper 5.11b, Smoke Bluffs, Squamish, BC 
+-   Yorkshire Gripper 5.11b, Smoke Bluffs, Squamish, BC
 
--   Partners in Crime 5.11a, Smoke Bluffs, Squamish, BC 
+-   Partners in Crime 5.11a, Smoke Bluffs, Squamish, BC
 
--   Kangaroo Korner 5.11a, Smoke Bluffs, Squamish, BC 
+-   Kangaroo Korner 5.11a, Smoke Bluffs, Squamish, BC
 
--   Ginger 5.11a, Vinyl Village, Yukon 
+-   Ginger 5.11a, Vinyl Village, Yukon
 
--   Rainy Day Dream Away 5.10c, Bulletheads, Squamish, BC 
+-   Rainy Day Dream Away 5.10c, Bulletheads, Squamish, BC
 
--   Coogee Crack 5.10c, Chief, Squamish, BC 
+-   Coogee Crack 5.10c, Chief, Squamish, BC
 
--   Thorax Complaint 5.10c, Smoke Bluffs, Squamish, BC 
+-   Thorax Complaint 5.10c, Smoke Bluffs, Squamish, BC
 
--   Yoga Man 5.10c, McIntyre Creek, Yukon 
+-   Yoga Man 5.10c, McIntyre Creek, Yukon
 
 -   Split Beaver 5.10b (OW), Smoke Bluffs, Squamish, BC
 
-## On-sight - Traditional Climbs 
+## On-sight - Traditional Climbs
 
--   Climb and Punishment 5.10d, Smoke Bluffs, Squamish, BC 
+-   Climb and Punishment 5.10d, Smoke Bluffs, Squamish, BC
 
--   Who's Your Daddy? 5.10d Mixed, Nightmare Wall, Squamish, BC 
+-   Who's Your Daddy? 5.10d Mixed, Nightmare Wall, Squamish, BC
 
--   Centre Street 5.10c, Smoke Bluffs, Squamish, BC 
+-   Centre Street 5.10c, Smoke Bluffs, Squamish, BC
 
--   Elephantiasis 5.10c, Smoke Bluffs, Squamish, BC 
+-   Elephantiasis 5.10c, Smoke Bluffs, Squamish, BC
 
--   Crossroads 5.10c, Garibaldi Estates, Squamish, BC 
+-   Crossroads 5.10c, Garibaldi Estates, Squamish, BC
 
--   Where's Carruthers? 5.10c, Scarface, Indian Creek, Utah 
+-   Where's Carruthers? 5.10c, Scarface, Indian Creek, Utah
 
--   Sinsemilla 5.10c, Sunshine Wall, Frenchman Coulee, WA 
+-   Sinsemilla 5.10c, Sunshine Wall, Frenchman Coulee, WA
 
--   Maranatha 5.10c, Bridge Area, New River Gorge, WV 
+-   Maranatha 5.10c, Bridge Area, New River Gorge, WV
 
--   Rat Mother Crack 5.10c, Paint Mountain, Yukon 
+-   Rat Mother Crack 5.10c, Paint Mountain, Yukon
 
--   Popeye and the Raven 5.10c Mixed, Smoke Bluffs, Squamish, BC 
+-   Popeye and the Raven 5.10c Mixed, Smoke Bluffs, Squamish, BC
 
--   Unknown Offwidth 5.10+, Reservoir Wall, Indian Creek, Utah 
+-   Unknown Offwidth 5.10+, Reservoir Wall, Indian Creek, Utah
 
--   SM's Delight 5.10b, Smoke Bluffs, Squamish, BC 
+-   SM's Delight 5.10b, Smoke Bluffs, Squamish, BC
 
--   White Rabbit 5.10b, Smoke Bluffs, Squamish, BC 
+-   White Rabbit 5.10b, Smoke Bluffs, Squamish, BC
 
--   Bob's Your Uncle 5.10b, Top Shelf, Squamish, BC 
+-   Bob's Your Uncle 5.10b, Top Shelf, Squamish, BC
 
--   A Pitch in Time 5.10b, Chief, Squamish, BC 
+-   A Pitch in Time 5.10b, Chief, Squamish, BC
 
--   Lumberland 5.10b, Smoke Bluffs, Squamish, BC 
+-   Lumberland 5.10b, Smoke Bluffs, Squamish, BC
 
--   Erica 5.10b, Smoke Bluffs, Squamish, BC 
+-   Erica 5.10b, Smoke Bluffs, Squamish, BC
 
--   Jabberwocky 5.10b, Smoke Bluffs, Squamish, BC 
+-   Jabberwocky 5.10b, Smoke Bluffs, Squamish, BC
 
--   Geneside 5.10b, Murrin Park, Squamish, BC 
+-   Geneside 5.10b, Murrin Park, Squamish, BC
 
--   Life is Suffering 5.10b, McIntyre Creek, Yukon 
+-   Life is Suffering 5.10b, McIntyre Creek, Yukon
 
--   Fistful of Potash 5.10b Mixed, Wall Street, Moab, Utah 
+-   Fistful of Potash 5.10b Mixed, Wall Street, Moab, Utah
 
--   Hand Jive 5.10b, Malamute, Squamish, BC 
+-   Hand Jive 5.10b, Malamute, Squamish, BC
 
--   Unnamed 5.10, Reservoir Wall, Indian Creek, Utah 
+-   Unnamed 5.10, Reservoir Wall, Indian Creek, Utah
 
--   Cypress Crack, 5.10a, Cougar Crag, Cypress Falls, North Vancouver, BC 
+-   Cypress Crack, 5.10a, Cougar Crag, Cypress Falls, North Vancouver, BC
 
--   The Zip, 5.10a, Smoke Bluffs, Squamish, BC 
+-   The Zip, 5.10a, Smoke Bluffs, Squamish, BC
 
--   Run Life a Thief 5.10a, Smoke Bluffs, Squamish, BC 
+-   Run Life a Thief 5.10a, Smoke Bluffs, Squamish, BC
 
--   Sex Party 5.10a, Middle East Wall, Frenchman Coulee, WA 
+-   Sex Party 5.10a, Middle East Wall, Frenchman Coulee, WA
 
--   Agathla Unchained 5.10a, Agathla Tower, Frenchman Coulee, WA 
+-   Agathla Unchained 5.10a, Agathla Tower, Frenchman Coulee, WA
 
--   Sentry Crack 5.10a, Murrin Park, Squamish, BC 
+-   Sentry Crack 5.10a, Murrin Park, Squamish, BC
 
--   Nubile Woman 5.10a, Smoke Bluffs, Squamish, BC 
+-   Nubile Woman 5.10a, Smoke Bluffs, Squamish, BC
 
--   Split Decision 5.10a, Shannon Falls, Squamish, BC 
+-   Split Decision 5.10a, Shannon Falls, Squamish, BC
 
--   Flying Circus 5.10a, Smoke Bluffs, Squamish, BC 
+-   Flying Circus 5.10a, Smoke Bluffs, Squamish, BC
 
--   Neat and Cool 5.10a, Smoke Bluffs, Squamish, BC 
+-   Neat and Cool 5.10a, Smoke Bluffs, Squamish, BC
 
--   Mercury Vapour 5.10a, Papoose, Squamish, BC 
+-   Mercury Vapour 5.10a, Papoose, Squamish, BC
 
--   Flying Circus 5.10a, Smoke Bluffs, Squamish, BC 
+-   Flying Circus 5.10a, Smoke Bluffs, Squamish, BC
 
--   Crescendo 5.10a, Golden Canyon, Yukon 
+-   Crescendo 5.10a, Golden Canyon, Yukon
 
--   Shark Fin 5.10a, Golden Canyon, Yukon 
+-   Shark Fin 5.10a, Golden Canyon, Yukon
 
 -   Dr. Carl 5.10-, Reservoir Wall, Indian Creek, Utah
 
-## Aid 
+## Aid
 
 -   Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA [2022]{style="float:right"}\
 
 -   Cannabis Wall C2, first five pitches, Tantalus Wall, Squamish, BC [2022]{style="float:right"}\
-    [note: slept on G7 portaledge] 
+    [note: slept on G7 portaledge]
 
 -   Cannabis Wall C2, first two pitches, Tantalus Wall, Squamish, BC [2022]{style="float:right"}\
 
-## Bouldering 
+## Bouldering
 
-- Bonspiel V5, Halfway Log Dump, Ontario 
+-   Bonspiel V5, Halfway Log Dump, Ontario
 
-- Fire Breather V5, D&D Boulder, Yukon 
+-   Fire Breather V5, D&D Boulder, Yukon
 
-- Pocket Problem V4, Grandwall Boulders, Squamish, BC 
+-   Pocket Problem V4, Grandwall Boulders, Squamish, BC
 
-- Face Burster V4, Cypress Mountain, North Vancouver, BC 
+-   Face Burster V4, Cypress Mountain, North Vancouver, BC
 
-- Jenna's Jewelry V4, Kraft Boulders, Red Rock, NV
+-   Jenna's Jewelry V4, Kraft Boulders, Red Rock, NV
 
-# Ice Climbing 
+# Ice Climbing
 
 -   Curtain Call 120m WI6, Rampart Creek, AB [2020]{style="float:right"}\
     [note: second; not clean]
@@ -361,17 +355,17 @@ output:
 -   Oh Le Tabernac 60m WI5+, Ice Fields Parkway, AB [2020]{style="float:right"}\
     [note: second; not clean]
 
-- Weeping Wall, Central Pillar, 180m WI5+, Ice Fields Parkway, AB [2017]{style="float:right"}\
-[note: second; not clean]
+-   Weeping Wall, Central Pillar, 180m WI5+, Ice Fields Parkway, AB [2017]{style="float:right"}\
+    [note: second; not clean]
 
 -   Carlsberg WI5, Lillooet, BC [2018/2019?]{style="float:right"}\
-    [note: lead; not clean]  
+    [note: lead; not clean]
 
 -   The Plum 300m WI5, Pemberton, BC
 
--   Deeping Wall WI5, Marble Canyon, Lillooet, BC 
+-   Deeping Wall WI5, Marble Canyon, Lillooet, BC
 
--   Malignant Mushroom WI5, The Ghost, AB (second; clean) - [2017]{style="float:right"}\ 
+-   Malignant Mushroom WI5, The Ghost, AB (second; clean) - [2017]{style="float:right"} 
 
 -   Nothing But the Breast 145m WI4+, Dave Thomson Highway, AB - [2020]{style="float:right"}\
 
@@ -379,45 +373,44 @@ output:
 
 -   Two Minutes for Hooking 140m WI4, Squamish, BC [2021]{style="float:right"}\
 
--   Synchronicity 300m WI4, Duffey Lake Road, Lillooet, BC 
+-   Synchronicity 300m WI4, Duffey Lake Road, Lillooet, BC
 
--   Obsession 2p 55m WI4, Orient Bay, ON 
+-   Obsession 2p 55m WI4, Orient Bay, ON
 
 -   Professor Falls III 5p 210m WI4, Banff, AB [2017]{style="float:right"}\
 
--   Closet Secrets WI4, Duffey Lake Road, Lillooet, BC 
+-   Closet Secrets WI4, Duffey Lake Road, Lillooet, BC
 
--   Plum-Lite WI4, Pemberton, BC 
+-   Plum-Lite WI4, Pemberton, BC
 
--   Icy BC 105m WI4, Marble Canyon, Lillooet, BC 
+-   Icy BC 105m WI4, Marble Canyon, Lillooet, BC
 
 -   Louise Falls 115m WI4, Lake Louise, AB (didn't top out; too cold) [2017]{style="float:right"}\
 
 -   Unnamed FA 20m WI4 - Hanover Lake, Vancouver, BC [2022]{style="float:right"}\
     [note: 22km + 1100m elevation in snowshoes]
-    
--   The Column WI4-, Rambles Right, Duffey Lake Road, Lillooet, BC 
 
--   Oregon Jack WI3+ 
-    [note: didn't top out] 
+-   The Column WI4-, Rambles Right, Duffey Lake Road, Lillooet, BC
+
+-   Oregon Jack WI3+ [note: didn't top out]
 
 -   End of the Line 100m WI3, Dave Thomson Highway, AB [2020]{style="float:right"}\
 
--   Mouse Trap 330m WI3, Hope, BC 
+-   Mouse Trap 330m WI3, Hope, BC
 
--   Entropy 120m WI3, Whistler, BC 
+-   Entropy 120m WI3, Whistler, BC
 
--   Sunshine 45m WI3, Front Ranges, AB 
+-   Sunshine 45m WI3, Front Ranges, AB
 
--   Soleil WI3, Whitehorse 
+-   Soleil WI3, Whitehorse
 
--   Bridal Veil Falls WI3, BC 
+-   Bridal Veil Falls WI3, BC
 
--   A Scottish Tale WI3, Squamish, BC 
+-   A Scottish Tale WI3, Squamish, BC
 
--   Picadilly Circus WI3, BC 
+-   Picadilly Circus WI3, BC
 
--   Cherry Ice, Lillooet BC 
+-   Cherry Ice, Lillooet BC
 
 -   Norvan Falls, Vancouver, BC [2022]{style="float:right"}\
 
@@ -435,17 +428,17 @@ output:
 
 # Scrambles
 
--   Sky Pilot, Squamish, BC  [2022]{style="float:right"}\
+-   Sky Pilot, Squamish, BC [2022]{style="float:right"}\
 
--   Mt Seymour (1,449) [December 2021]{style="float:right"}\ 
+-   Mt Seymour (1,449) [December 2021]{style="float:right"} 
 
--   Peak 6500 (1964) and some more; 1948m ascent, 25km, 13.75 hrs [August  2021]{style="float:right"}\
+-   Peak 6500 (1964) and some more; 1948m ascent, 25km, 13.75 hrs [August 2021]{style="float:right"}\
 
 -   Mt Hanover (1748m) + Deek's Peak (1600m?); 1648m ascent, 33kkm; 13.5 hrs [May 2021]{style="float:right"}\
 
--   Mt Brunswick (1788m); 1588m ascent, 15km; 9 hrs car to car [March  2021]{style="float:right"}\
+-   Mt Brunswick (1788m); 1588m ascent, 15km; 9 hrs car to car [March 2021]{style="float:right"}\
 
--   Mt Cathedral (1737m); along with Coliseum Mountain (1,440m) and Mt Burwell (1,540m); 15hrs car to car [August 2019]{style="float:right"}\ 
+-   Mt Cathedral (1737m); along with Coliseum Mountain (1,440m) and Mt Burwell (1,540m); 15hrs car to car [August 2019]{style="float:right"} 
 
 -   Black Tusk, Whistler, BC [2019]{style="float:right"}\
 
@@ -465,7 +458,8 @@ output:
 
 -   Cathedral Park: Lakeview Mountain + Boxcar; Diamond Trail; Rim Trail + Grimface Mountain, 70km, Cathedral Provincial Park, BC - 5 days (day hikes on days 2,3 and 4) [2020]{style="float:right"}\
 
--   Three Brothers, 40km, E.C. Manning Park, BC - three days (day hike to Nicomen Lake on second day) [2020]{style="float:right"}\ 
+-   Three Brothers, 40km, E.C. Manning Park, BC - three days (day hike to Nicomen Lake on second day) [2020]{style="float:right"} 
+
 -   Mowich Camp via Skyline Trail from Strawberry Flats, 30km, E.C. Manning Park, BC - two days [2020]{style="float:right"}\
 
 -   Rainbow Lake and Hanging Lake, 25km, Callaghan Valley, Whistler, BC - two days [2020]{style="float:right"}\
@@ -501,6 +495,7 @@ output:
 -   ForeTrails Hallow's Eve, North Vancouver, BC; 21.1k trail race with 866m ascent - 2.5hrs [2022]{style="float:right"}\
 
 -   FatDog 70, Manning Park, BC; 111k trail race with 4,700m of ascent - 20hr [2019]{style="float:right"}\
+    ![](images/paste-65830886.png)
 
 -   Kneeknacker 50, North Vancouver, BC; 48k trail race with 3,000m of ascent - 7hr [2019]{style="float:right"}\
 
@@ -540,38 +535,38 @@ output:
 
 # Cycling
 
--   Early Bird Special - Fixed Gear - 210km with 2130m ascent, 8hrs 59mins - Vancouver, BC [2021]{style="float:right"}\
+-   Early Bird Special - Fixed Gear - 210km with 2130m ascent, 8hrs 59mins - Vancouver, BC [2021]{style="float:right"}
 
--   Triple Crown: 130km with 2600m ascent, 8 hrs? - North Shore, Vancouver, BC [2021]{style="float:right"}\
+-   Triple Crown: 130km with 2600m ascent, 8 hrs? - North Shore, Vancouver, BC [2021]{style="float:right"}
 
--   200km Breve - 3 Hump Camel - 8hr? - BC [2016]{style="float:right"}\
+-   200km Breve - 3 Hump Camel - 8hr? - BC [2016]{style="float:right"}
 
--   Pacific Populaire; 100km bike ride on a fixed gear - time? - Vancouver, BC [2016]{style="float:right"}\
+-   Pacific Populaire; 100km bike ride on a fixed gear - time? - Vancouver, BC [2016]{style="float:right"}
 
--   200km Breve - 10hr? - Vancouver, BC [2015]{style="float:right"}\ 
+-   200km Breve - 10hr? - Vancouver, BC [2015]{style="float:right"} 
 
--   Kluane Chilkat International Bike Relay, Haines Junction, YT / Haines, AK; 238.3 km bike race, solo - 11hr 18mins 2013 [2014]{style="float:right"}\
+-   Kluane Chilkat International Bike Relay, Haines Junction, YT / Haines, AK; 238.3 km bike race, solo - 11hr 18mins 2013 [2014]{style="float:right"}
 
--   600km Breve - 34hr - Ontario [2013]{style="float:right"}\
+-   600km Breve - 34hr - Ontario [2013]{style="float:right"}
 
--   400km Breve - 18hr - Ontario [2013]{style="float:right"}\
+-   400km Breve - 18hr - Ontario [2013]{style="float:right"}
 
--   TNT (Toronto - Niagara Falls - Toronto) Hairshirt Classic Double Century; 320km bike ride - 14hrs 59mins - Ontario [2013]{style="float:right"}\
+-   TNT (Toronto - Niagara Falls - Toronto) Hairshirt Classic Double Century; 320km bike ride - 14hrs 59mins - Ontario [2013]{style="float:right"}
 
--   300km Breve - 17hr - Ontario [2013]{style="float:right"}\
+-   300km Breve - 17hr - Ontario [2013]{style="float:right"}
 
--   200km Breve - 10hr - Ontario [2013]{style="float:right"}\
+-   200km Breve - 10hr - Ontario [2013]{style="float:right"}
 
 -   160km Hamilton - Toronto - Hamilton; fixed gear bike - time? - Ontario [2013]{style="float:right"}\
 
-# Canoeing 
+# Canoeing
 
--   Powell Forest Canoe Route - 57 km, 8 lakes, 5 portages - 5 days [2022]{style="float:right"}\
+-   Powell Forest Canoe Route - 57 km, 8 lakes, 5 portages - 5 days [2022]{style="float:right"}
 
--   Indian Arm - 2 days - [2017/8?]{style="float:right"}\
+-   Indian Arm - 2 days - [2017/8?]{style="float:right"}
 
--   Yukon River - Carcross to Dawson - 5 days? [2014/5?]{style="float:right"}\
+-   Yukon River - Carcross to Dawson - 5 days? [2014/5?]{style="float:right"}
 
--   Kawartha Lakes - 2 days [2013]{style="float:right"}\ 
+-   Kawartha Lakes - 2 days [2013]{style="float:right"} 
 
 -   Various multi-day canoe routes in Algonquin
