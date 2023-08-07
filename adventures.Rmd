@@ -51,7 +51,7 @@ output:
 -   [Northeast Ridge](https://www.mountainproject.com/route/105889511/north-east-ridge) 455m IV 10p 5.9 var., Bugaboo Spire, Bugaboos, BC [2015]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=17)]
 
--   [Needs More Cow Bewll](https://www.mountainproject.com/route/120812266/needs-more-cowbell) 214m 6p 5.8+, Boxcar Mountain, Cathedral Lakes, BC [2023]{style="float:right"}\
+-   [Needs More Cow Bell](https://www.mountainproject.com/route/120812266/needs-more-cowbell) 214m 6p 5.8+, Boxcar Mountain, Cathedral Lakes, BC [2023]{style="float:right"}\
 
 -   [NE Buttress](https://www.mountainproject.com/route/119444837/northeast-buttress) 400m 10p 5.6, West Lion, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=Z1a7XdPQ7Zo)]
 
