@@ -51,6 +51,8 @@ output:
 -   [Northeast Ridge](https://www.mountainproject.com/route/105889511/north-east-ridge) 455m IV 10p 5.9 var., Bugaboo Spire, Bugaboos, BC [2015]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=17)]
 
+-   [Needs More Cow Bewll](https://www.mountainproject.com/route/120812266/needs-more-cowbell) 214m 6p 5.8+, Boxcar Mountain, Cathedral Lakes, BC [2023]{style="float:right"}\
+
 -   [NE Buttress](https://www.mountainproject.com/route/119444837/northeast-buttress) 400m 10p 5.6, West Lion, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=Z1a7XdPQ7Zo)]
 
 -   [North Ridge](https://www.mountainproject.com/route/119050077/north-ridge) 600m III, 5.4, Tricouni, Whistler, BC [2021]{style="float:right"}\
@@ -325,6 +327,10 @@ output:
 
 ## Aid
 
+-   [University Wall](https://www.mountainproject.com/route/106509963/university-wall) C2, first 5 pitches, including The Shadow, U-Wall, Squamish, BC [2023]{style="float:right"}\
+
+-   Wrist Twister C2+, first pitch, Tantalus Wall, Squamish, BC - solo [2023]{style="float:right"}\
+
 -   Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA [2022]{style="float:right"}\
 
 -   Cannabis Wall C2, first five pitches, Tantalus Wall, Squamish, BC [2022]{style="float:right"}\
@@ -361,6 +367,10 @@ output:
 -   Carlsberg WI5, Lillooet, BC [2018/2019?]{style="float:right"}\
     [note: lead; not clean]
 
+-   Polar Circus 400m WI5, Icefields Parkway, AB (did not finish last 30m due to bad ice) [2022]{style="float:right"}\
+
+-   Elliot Left Hand 130m WI5, David Thompson Hwy, AB (lead; not clean) [2022]{style="float:right"}\
+
 -   The Plum 300m WI5, Pemberton, BC
 
 -   Deeping Wall WI5, Marble Canyon, Lillooet, BC
@@ -370,6 +380,8 @@ output:
 -   Nothing But the Breast 145m WI4+, Dave Thomson Highway, AB - [2020]{style="float:right"}\
 
 -   Good Luck and Bad Dreams 115m M6+ WI4, Dave Thomson Highway, AB (second; not clean)- [2020]{style="float:right"}\
+
+-   Night N Gale 150m WI4, Bridge River, BC [2023]{style="float:right"}\
 
 -   Two Minutes for Hooking 140m WI4, Squamish, BC [2021]{style="float:right"}\
 
@@ -428,6 +440,8 @@ output:
 
 # Scrambles
 
+-   Grimface Mountain, Cathedral Park, BC [2023]{style="float:right"}\
+
 -   Sky Pilot, Squamish, BC [2022]{style="float:right"}\
 
 -   Mt Seymour (1,449) [December 2021]{style="float:right"} 
@@ -453,6 +467,8 @@ output:
 -   Golden Ears, BC [April 2016]{style="float:right"}\
 
 # Hiking
+
+-   Rockwall [2023]{style="float:right"}\
 
 -   Tenquille Lake, 30km, Pemberton, BC - three days (day hike to Ogre Lake on second day) [2022]{style="float:right"}\
 
