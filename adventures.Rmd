@@ -20,7 +20,8 @@ output:
 [note: Routes in green are part of the Classic/Updated list of the Fifty Classic Climbs of North America]
 
 -   [Springbok Arete](https://www.mountainproject.com/route/114545765/springbok-arete) 350m IV 13p 5.11a, Anderson Range, Hope, BC [2021]{style="float:right"}\
-    [[Youtube](https://www.youtube.com/watch?v=YmZ5O80E2TA)]
+    [[Youtube](https://www.youtube.com/watch?v=YmZ5O80E2TA)]\
+    ![](images/20210829_083602.jpg)
 
 -   [Mighty Mouse](https://www.mountainproject.com/route/113427644/mighty-mouse) IV 8p 5.11a, Joffre Creek, BC [2019]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=cW1AR1yDA0I)]
