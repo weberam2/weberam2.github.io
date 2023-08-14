@@ -21,17 +21,19 @@ output:
 
 -   [Springbok Arete](https://www.mountainproject.com/route/114545765/springbok-arete) 350m IV 13p 5.11a, Anderson Range, Hope, BC [2021]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=YmZ5O80E2TA)]\
-    ![](images/20210829_083602.jpg)
+    ![](images/20210829_083602.jpg){width="379"}
 
 -   [Mighty Mouse](https://www.mountainproject.com/route/113427644/mighty-mouse) IV 8p 5.11a, Joffre Creek, BC [2019]{style="float:right"}\
-    [[Youtube](https://www.youtube.com/watch?v=cW1AR1yDA0I)]
+    [[Youtube](https://www.youtube.com/watch?v=cW1AR1yDA0I)]\
+    ![](images/G0020989.JPG){width="376"}
 
 -   [Sunshine Crack](https://www.mountainproject.com/route/105868170/sunshine-crack) 270m IV 9p 5.11-, Snowpatch Spire, Bugaboos, BC [2016]{style="float:right"}\
-    [[Youtube](https://youtu.be/MHT1lKAq8aA?t=190)]
+    [[Youtube](https://youtu.be/MHT1lKAq8aA?t=190)]\
+    ![](images/GOPR1140.JPG){width="377"}
 
 -   [Lotus Flower Tower](https://www.mountainproject.com/area/105905652/lotus-flower-tower) V 18p 5.11-, The Cirque of the Unclimbables, NWT [2015]{style="float:right"}\
     [note:only completed 10 pitches due to weather and time constraints]\
-    [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]
+    [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]\
 
 -   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC
 
