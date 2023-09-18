@@ -41,6 +41,8 @@ output:
 
 -   [Direct North Buttress](https://www.mountainproject.com/route/112828257/direct-north-buttress) 667m V 21p 5.10-, Bear Mountain, North Cascades, WA [[Youtube](https://www.youtube.com/watch?v=0MRtQ1rg4oc)]
 
+-   [Pup Buttress](https://www.mountainproject.com/route/113544300/pup-buttress) D+ 10-11p 5.10a, Harvey's Pup, North Vancouver, BC [2023]{style="float:right"}\
+
 -   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)]
 
 -   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)]
