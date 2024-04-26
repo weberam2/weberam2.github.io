@@ -13,7 +13,7 @@
 
 <title>Alex Weber’s Adventure Resume</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -557,6 +554,8 @@ BC</p></li>
 Squamish, BC</p></li>
 <li><p>Grin and Bear It 5.11c, Doctors’ Wall, Skaha, BC</p></li>
 <li><p>Wings of Desire 5.11c, The White Wall, Skaha, BC</p></li>
+<li><p>Clippity-Doo-Dah 5.11b/c, The Pillary, Squamish, BC</p></li>
+<li><p>Chalant 5.11b, The Pillary, Squamish, BC</p></li>
 <li><p>Wingman 5.11b, Sully’s Hangout, Vancouver, BC</p></li>
 <li><p>Thriller Off the Void 5.11b Mixed, Murrin Park, Squamish,
 BC</p></li>
@@ -723,9 +722,13 @@ clean) <span style="float:right">2022</span><br />
 <li><p>The Plum 300m WI5, Pemberton, BC</p></li>
 <li><p>Deeping Wall WI5, Marble Canyon, Lillooet, BC</p></li>
 <li><p>Malignant Mushroom WI5, The Ghost, AB (second; clean) - <span
-style="float:right">2017</span> </p></li>
+style="float:right">2017</span><br />
+</p></li>
 <li><p>Nothing But the Breast 145m WI4+, Dave Thomson Highway, AB -
 <span style="float:right">2020</span><br />
+</p></li>
+<li><p>Cauthorn-Wilson 240m WI4, Washington Pass, Washington, US - <span
+style="float:right">2023</span><br />
 </p></li>
 <li><p>Good Luck and Bad Dreams 115m M6+ WI4, Dave Thomson Highway, AB
 (second; not clean)- <span style="float:right">2020</span><br />
@@ -795,6 +798,9 @@ style="float:right">2017</span><br />
 <div id="scrambles" class="section level1">
 <h1>Scrambles</h1>
 <ul>
+<li><p>Castle Towers, Garibaldi Park, BC (see Running) <span
+style="float:right">2023</span><br />
+</p></li>
 <li><p>Grimface Mountain, Cathedral Park, BC <span
 style="float:right">2023</span><br />
 </p></li>
@@ -837,7 +843,8 @@ style="float:right">2019</span><br />
 <div id="hiking" class="section level1">
 <h1>Hiking</h1>
 <ul>
-<li><p>Rockwall <span style="float:right">2023</span><br />
+<li><p>Rockwall Trail, 54km, Kootenay National Park - four days <span
+style="float:right">2023</span><br />
 </p></li>
 <li><p>Tenquille Lake, 30km, Pemberton, BC - three days (day hike to
 Ogre Lake on second day) <span style="float:right">2022</span><br />
@@ -901,6 +908,9 @@ style="float:right">2014</span><br />
 <div id="running" class="section level1">
 <h1>Running</h1>
 <ul>
+<li><p>Helm Creek to Castle Towers to Rubble Creek, Garibaldi, BC; 41k
+with 3,000m ascent - 13 hrs <span style="float:right">2023</span><br />
+</p></li>
 <li><p>ForeTrails Hallow’s Eve, North Vancouver, BC; 21.1k trail race
 with 866m ascent - 2.5hrs <span style="float:right">2022</span><br />
 </p></li>

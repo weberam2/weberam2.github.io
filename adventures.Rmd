@@ -164,6 +164,10 @@ output:
 
 -   Wings of Desire 5.11c, The White Wall, Skaha, BC
 
+-   Clippity-Doo-Dah 5.11b/c, The Pillary, Squamish, BC
+
+-   Chalant 5.11b, The Pillary, Squamish, BC
+
 -   Wingman 5.11b, Sully's Hangout, Vancouver, BC
 
 -   Thriller Off the Void 5.11b Mixed, Murrin Park, Squamish, BC
@@ -380,9 +384,11 @@ output:
 
 -   Deeping Wall WI5, Marble Canyon, Lillooet, BC
 
--   Malignant Mushroom WI5, The Ghost, AB (second; clean) - [2017]{style="float:right"} 
+-   Malignant Mushroom WI5, The Ghost, AB (second; clean) - [2017]{style="float:right"}\
 
 -   Nothing But the Breast 145m WI4+, Dave Thomson Highway, AB - [2020]{style="float:right"}\
+
+-   Cauthorn-Wilson 240m WI4, Washington Pass, Washington, US - [2023]{style="float:right"}\
 
 -   Good Luck and Bad Dreams 115m M6+ WI4, Dave Thomson Highway, AB (second; not clean)- [2020]{style="float:right"}\
 
@@ -445,6 +451,8 @@ output:
 
 # Scrambles
 
+-   Castle Towers, Garibaldi Park, BC (see Running) [2023]{style="float:right"}\
+
 -   Grimface Mountain, Cathedral Park, BC [2023]{style="float:right"}\
 
 -   Sky Pilot, Squamish, BC [2022]{style="float:right"}\
@@ -473,7 +481,7 @@ output:
 
 # Hiking
 
--   Rockwall [2023]{style="float:right"}\
+-   Rockwall Trail, 54km, Kootenay National Park - four days [2023]{style="float:right"}\
 
 -   Tenquille Lake, 30km, Pemberton, BC - three days (day hike to Ogre Lake on second day) [2022]{style="float:right"}\
 
@@ -512,6 +520,8 @@ output:
 -   Garibaldi Neve Traverse, 40km with 1,750m of ascent - two days [2018]{style="float:right"}\
 
 # Running
+
+-   Helm Creek to Castle Towers to Rubble Creek, Garibaldi, BC; 41k with 3,000m ascent - 13 hrs [2023]{style="float:right"}\
 
 -   ForeTrails Hallow's Eve, North Vancouver, BC; 21.1k trail race with 866m ascent - 2.5hrs [2022]{style="float:right"}\
 
