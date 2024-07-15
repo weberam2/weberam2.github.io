@@ -31,29 +31,35 @@ output:
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=190)]\
     ![](images/GOPR1140.JPG){width="377"}
 
--   [Lotus Flower Tower](https://www.mountainproject.com/area/105905652/lotus-flower-tower) V 18p 5.11-, The Cirque of the Unclimbables, NWT [2015]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">[Lotus Flower Tower](https://www.mountainproject.com/area/105905652/lotus-flower-tower) V 18p 5.11-, The Cirque of the Unclimbables, NWT [2015]{style="float:right"}\
     [note:only completed 10 pitches due to weather and time constraints]\
     [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]\
 
--   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC
+-   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC [2018]{style="float:right}
 
--   [Paddle Flake Direct](https://www.mountainproject.com/route/105869571/paddle-flake-direct) 150m III 5p 5.10, Crescent Spire, Bugaboos, BC [2015]{style="float:right"}\
+-   [Paddle Flake Direct](https://www.mountainproject.com/route/105869571/paddle-flake-direct) 150m III 5p 5.10, Crescent Spire, Bugaboos, BC [2015]{style="float:right"}
+
+-   [Red Dihedral](https://www.mountainproject.com/route/105852183/red-dihedral-aka-yggdrasil) 455m IV 12p 5.10b, The Incredible Hulk, Eastern Sierras, CA [2024]{style="float:right"}
+
+-   [Regular Route](https://www.mountainproject.com/route/105816995/third-pillar-regular-route) 242m III 5p 5.10b, Third Pillar of Dana, Eastern Sierras, CA [2024]{style="float:right"}
 
 -   [Direct North Buttress](https://www.mountainproject.com/route/112828257/direct-north-buttress) 667m V 21p 5.10-, Bear Mountain, North Cascades, WA [[Youtube](https://www.youtube.com/watch?v=0MRtQ1rg4oc)]
 
 -   [Pup Buttress](https://www.mountainproject.com/route/113544300/pup-buttress) D+ 10-11p 5.10a, Harvey's Pup, North Vancouver, BC [2023]{style="float:right"}\
 
--   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)]
+-   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, Crown Mountain, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)]
 
--   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)]
+-   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Yak Peak, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)]
 
--   [Ensawkwatch Enchainment](https://www.mountainproject.com/route/113544618/ensawkwatch-enchainment-d) 5km III 18p 5.9 var., North & South Nesakwatch Spires & Mt. Rexford, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=RCvaISGolLM)]
+-   <mark style="background-color: #AAFF00">[Regular Route](https://www.mountainproject.com/route/105847227/regular-route) 303m 12p 5.9, Fairview Dome, Tuolumne Meadows, CA [2024]{style="float:right"}
 
--   [Northeast Buttress](https://www.mountainproject.com/route/106108831/northeast-buttress) V 25p 5.9, Slesse Mountain, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=zCY_Sxgihho)]
+-   [Ensawkwatch Enchainment](https://www.mountainproject.com/route/113544618/ensawkwatch-enchainment-d) 5km III 18p 5.9 var., North & South Nesakwatch Spires & Mt. Rexford, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=RCvaISGolLM)] [2018]{style="float:right"}
+
+-   <mark style="background-color: #AAFF00">[Northeast Buttress](https://www.mountainproject.com/route/106108831/northeast-buttress) V 25p 5.9, Slesse Mountain, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=zCY_Sxgihho)] [2017]{"style="float:right"}
 
 -   [Escape Velocity](https://www.mountainproject.com/route/111849325/escape-velocity) 135m 7p 5.9-, Mt Habrich, Squamish, BC
 
--   [Northeast Ridge](https://www.mountainproject.com/route/105889511/north-east-ridge) 455m IV 10p 5.9 var., Bugaboo Spire, Bugaboos, BC [2015]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">[Northeast Ridge](https://www.mountainproject.com/route/105889511/north-east-ridge) 455m IV 10p 5.9 var., Bugaboo Spire, Bugaboos, BC [2015]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=17)]
 
 -   [Needs More Cow Bell](https://www.mountainproject.com/route/120812266/needs-more-cowbell) 214m 6p 5.8+, Boxcar Mountain, Cathedral Lakes, BC [2023]{style="float:right"}\
@@ -63,7 +69,7 @@ output:
 -   [North Ridge](https://www.mountainproject.com/route/119050077/north-ridge) 600m III, 5.4, Tricouni, Whistler, BC [2021]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=Dui82abXbdY)]
 
--   [West Ridge](https://www.mountainproject.com/route/105869393/west-ridge) 455m III 5.4 free solo, Pigeon Spire, Bugaboos, BC [2015]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">[West Ridge](https://www.mountainproject.com/route/105869393/west-ridge) 455m III 5.4 free solo, Pigeon Spire, Bugaboos, BC [2015]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=138)]
 
 ## Multi-pitch Rock Climbs
@@ -125,14 +131,14 @@ output:
 
 -   Hairpin 4p trad 5.10a (on-sight), Papoose, Squamish, BC
 
--   Kor-Ingalls Route 4p 5.9 (on-sight), Castleton Tower, Utah
+-   <mark style="background-color: #AAFF00">Kor-Ingalls Route 4p 5.9 (on-sight), Castleton Tower, Utah
 
--   The Nose 28p trad and aid VI 5.9 C2, Yosemite, California, USA [2022]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">The Nose 28p trad and aid VI 5.9 C2, El Capitan, Yosemite, California, USA [2022]{style="float:right"}\
     [note: fixed to Sickle, climbed over four days and three nights, slept on summit]
 
 -   Crimson Chrysalis 9p trad 5.8+ (on-sight), Cloud Tower, Red Rock, Nevada
 
--   Royal Arches 15p III/IV 5.7 A0 (on-sight), Yosemite, California, USA [2022]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">Royal Arches 15p III/IV 5.7 A0 (on-sight), Yosemite, California, USA [2022]{style="float:right"}\
 
 -   Banana Peel 8p 5.7 PG13 by headlamp, Apron, Squamish, BC
 
@@ -340,7 +346,7 @@ output:
 
 -   Wrist Twister C2+, first pitch, Tantalus Wall, Squamish, BC - solo [2023]{style="float:right"}\
 
--   Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA [2022]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA [2022]{style="float:right"}\
 
 -   Cannabis Wall C2, first five pitches, Tantalus Wall, Squamish, BC [2022]{style="float:right"}\
     [note: slept on G7 portaledge]
