@@ -33,7 +33,7 @@ output:
 
 -   <mark style="background-color: #AAFF00">[Lotus Flower Tower](https://www.mountainproject.com/area/105905652/lotus-flower-tower) V 18p 5.11-, The Cirque of the Unclimbables, NWT [2015]{style="float:right"}\
     [note:only completed 10 pitches due to weather and time constraints]\
-    [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]\
+    [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]
 
 -   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC [2018]{style="float:right}
 
@@ -55,7 +55,7 @@ output:
 
 -   [Ensawkwatch Enchainment](https://www.mountainproject.com/route/113544618/ensawkwatch-enchainment-d) 5km III 18p 5.9 var., North & South Nesakwatch Spires & Mt. Rexford, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=RCvaISGolLM)] [2018]{style="float:right"}
 
--   <mark style="background-color: #AAFF00">[Northeast Buttress](https://www.mountainproject.com/route/106108831/northeast-buttress) V 25p 5.9, Slesse Mountain, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=zCY_Sxgihho)] [2017]{"style="float:right"}
+-   <mark style="background-color: #AAFF00">[Northeast Buttress](https://www.mountainproject.com/route/106108831/northeast-buttress) V 25p 5.9, Slesse Mountain, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=zCY_Sxgihho)] [2017]{style="float:right"}
 
 -   [Escape Velocity](https://www.mountainproject.com/route/111849325/escape-velocity) 135m 7p 5.9-, Mt Habrich, Squamish, BC
 
@@ -69,7 +69,7 @@ output:
 -   [North Ridge](https://www.mountainproject.com/route/119050077/north-ridge) 600m III, 5.4, Tricouni, Whistler, BC [2021]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=Dui82abXbdY)]
 
--   <mark style="background-color: #AAFF00">[West Ridge](https://www.mountainproject.com/route/105869393/west-ridge) 455m III 5.4 free solo, Pigeon Spire, Bugaboos, BC [2015]{style="float:right"}\
+-   [West Ridge](https://www.mountainproject.com/route/105869393/west-ridge) 455m III 5.4 free solo, Pigeon Spire, Bugaboos, BC [2015]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=138)]
 
 ## Multi-pitch Rock Climbs
@@ -138,7 +138,7 @@ output:
 
 -   Crimson Chrysalis 9p trad 5.8+ (on-sight), Cloud Tower, Red Rock, Nevada
 
--   <mark style="background-color: #AAFF00">Royal Arches 15p III/IV 5.7 A0 (on-sight), Yosemite, California, USA [2022]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">Royal Arches 15p III/IV 5.7 A0 (on-sight), Yosemite, California, USA [2022]{style="float:right"}
 
 -   Banana Peel 8p 5.7 PG13 by headlamp, Apron, Squamish, BC
 
@@ -346,7 +346,7 @@ output:
 
 -   Wrist Twister C2+, first pitch, Tantalus Wall, Squamish, BC - solo [2023]{style="float:right"}\
 
--   <mark style="background-color: #AAFF00">Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA [2022]{style="float:right"}\
+-   <mark style="background-color: #AAFF00">Lost Arrow Spire Tip 2p aid III 5.7 C2, Yosemite, California, USA [2022]{style="float:right"}
 
 -   Cannabis Wall C2, first five pitches, Tantalus Wall, Squamish, BC [2022]{style="float:right"}\
     [note: slept on G7 portaledge]
