@@ -17,33 +17,68 @@ output:
 
 ## Alpine Routes
 
-[note: Routes in green are part of the Classic/Updated list of the Fifty Classic Climbs of North America]
+<mark style="background-color: #AAFF00"> \[note: Routes in green are part of the Classic/Updated list of the [Fifty Classic Climbs of North America](https://en.wikipedia.org/wiki/Fifty_Classic_Climbs_of_North_America)]
 
 -   [Springbok Arete](https://www.mountainproject.com/route/114545765/springbok-arete) 350m IV 13p 5.11a, Anderson Range, Hope, BC [2021]{style="float:right"}\
-    [[Youtube](https://www.youtube.com/watch?v=YmZ5O80E2TA)]\
-    ![](images/20210829_083602.jpg){width="379"}
+    [[Youtube](https://www.youtube.com/watch?v=YmZ5O80E2TA)]
+    <details>
+      <summary>Photo</summary>
+      ![Looking up at Springbok on the approach](images/20210829_083602.jpg){width="377"}
+    </details>
 
 -   [Mighty Mouse](https://www.mountainproject.com/route/113427644/mighty-mouse) IV 8p 5.11a, Joffre Creek, BC [2019]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=cW1AR1yDA0I)]\
-    ![](images/G0020989.JPG){width="376"}
+    <details>
+      <summary>Photo</summary>
+      ![Getting ready for one of the most glorious hand cracks](images/G0020989.JPG){width="377"}
+    </details>
 
 -   [Sunshine Crack](https://www.mountainproject.com/route/105868170/sunshine-crack) 270m IV 9p 5.11-, Snowpatch Spire, Bugaboos, BC [2016]{style="float:right"}\
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=190)]\
-    ![](images/GOPR1140.JPG){width="377"}
+    <details>
+      <summary>Photo</summary>
+      ![Unknown pitch on Sunshine Crack (RIP)](images/GOPR1140.JPG){width="377"}
+    </details>
 
 -   <mark style="background-color: #AAFF00">[Lotus Flower Tower](https://www.mountainproject.com/area/105905652/lotus-flower-tower) V 18p 5.11-, The Cirque of the Unclimbables, NWT [2015]{style="float:right"}\
     [note:only completed 10 pitches due to weather and time constraints]\
     [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]
+    
+    <details>
+      <summary>Photo</summary>
+      ![Photo fromt a different route, but same area](images/gopr0358.jpg){width="377"}
+    </details>
 
--   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC [2018]{style="float:right}
+-   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC [2018]{style="float:right"}
+    <details>
+      <summary>Photo</summary>
+      ![Looking up at the money pitch](images/Day3_01_Pitch5_02.JPG){width="377"}
+    </details>
 
--   [Paddle Flake Direct](https://www.mountainproject.com/route/105869571/paddle-flake-direct) 150m III 5p 5.10, Crescent Spire, Bugaboos, BC [2015]{style="float:right"}
-
+-   [Paddle Flake Direct](https://www.mountainproject.com/route/105869571/paddle-flake-direct) 150m III 5p 5.10, Crescent Spire, Bugaboos, BC [2016]{style="float:right"}
+    <details>
+      <summary>Photo</summary>
+      ![Looking up at an unknown pitch](images/DSC00610.JPG){width="377"}
+    </details>
+    
 -   [Red Dihedral](https://www.mountainproject.com/route/105852183/red-dihedral-aka-yggdrasil) 455m IV 12p 5.10b, The Incredible Hulk, Eastern Sierras, CA [2024]{style="float:right"}
+    <details>
+      <summary>Photo</summary>
+      ![Last pitch](images/20240708_133201.jpg){width="377"}
+    </details>
 
 -   [Regular Route](https://www.mountainproject.com/route/105816995/third-pillar-regular-route) 242m III 5p 5.10b, Third Pillar of Dana, Eastern Sierras, CA [2024]{style="float:right"}
+    <details>
+      <summary>Photo</summary>
+      ![Looking up at Third Pillar on the approach](images/20240711_072515.jpg){width="377"}
+    </details>
 
--   [Direct North Buttress](https://www.mountainproject.com/route/112828257/direct-north-buttress) 667m V 21p 5.10-, Bear Mountain, North Cascades, WA [[Youtube](https://www.youtube.com/watch?v=0MRtQ1rg4oc)]
+-   [Direct North Buttress](https://www.mountainproject.com/route/112828257/direct-north-buttress) 667m V 21p 5.10-, Bear Mountain, North Cascades, WA [2017]{style="float:right"}\
+    [[Youtube](https://www.youtube.com/watch?v=0MRtQ1rg4oc)]\
+    <details>
+      <summary>Photo</summary>
+      ![Looking down from one of the last pitches on a smokey day](images/GOPR0037.JPG){width="377"}
+    </details>
 
 -   [Pup Buttress](https://www.mountainproject.com/route/113544300/pup-buttress) D+ 10-11p 5.10a, Harvey's Pup, North Vancouver, BC [2023]{style="float:right"}\
 
@@ -51,7 +86,6 @@ output:
 
 -   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Yak Peak, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)]
 
--   <mark style="background-color: #AAFF00">[Regular Route](https://www.mountainproject.com/route/105847227/regular-route) 303m 12p 5.9, Fairview Dome, Tuolumne Meadows, CA [2024]{style="float:right"}
 
 -   [Ensawkwatch Enchainment](https://www.mountainproject.com/route/113544618/ensawkwatch-enchainment-d) 5km III 18p 5.9 var., North & South Nesakwatch Spires & Mt. Rexford, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=RCvaISGolLM)] [2018]{style="float:right"}
 
@@ -84,7 +118,7 @@ output:
 
 -   Fogducker trad 4p 5.11a, Slhanay, Squamish, BC
 
--   Wonderful Thing About Tiggers trad 7 p 5.11a, Fluffy Kitten Wall, Squamish, BC
+-   Wonderful Thing About Tiggers trad 7p 5.11a, Fluffy Kitten Wall, Squamish, BC
 
 -   The Grand Wall 9p trad 5.11a A0, The Chief, Squamish, BC
 
@@ -121,7 +155,7 @@ output:
 
 -   St. Vitus' Dance / Karen's Math / Memorial Crack / Squamish Buttress 13p trad 5.10c (on-sight), The Chief, Squamish, BC B
 
--   ulletheads East 4p trad 5.10c (on-sight), The Chief, Squamish, BC
+-   Bulletheads East 4p trad 5.10c (on-sight), The Chief, Squamish, BC
 
 -   Treasure of Sierra Madres 7p sport 5.10c (on-sight), Mota Wall, El Potrero Chico, Mexico
 
@@ -130,6 +164,8 @@ output:
 -   Black Orpheus 11p trad 5.10a (on-sight), Oak Creek Canyon, Red Rock, Nevada
 
 -   Hairpin 4p trad 5.10a (on-sight), Papoose, Squamish, BC
+
+-   <mark style="background-color: #AAFF00">[Regular Route](https://www.mountainproject.com/route/105847227/regular-route) 303m 12p 5.9, Fairview Dome, Tuolumne Meadows, CA [2024]{style="float:right"}
 
 -   <mark style="background-color: #AAFF00">Kor-Ingalls Route 4p 5.9 (on-sight), Castleton Tower, Utah
 
@@ -162,7 +198,9 @@ output:
 
 -   White on Rice 5.11b, White Mountain, Yukon
 
-## On-sight - Sport Climbs
+## On-sight - Sport Climbs 
+
+-   [Dans ta face](https://www.mountainproject.com/route/107336971/dans-ta-face) 5.11+, Montagne du Tranchant, Lanaudiere, QC [2019]{style="float:right"}
 
 -   Alevin and the Chipmunks 5.11c, Red Wall, Paradise Valley, Squamish, BC
 
@@ -170,9 +208,9 @@ output:
 
 -   Wings of Desire 5.11c, The White Wall, Skaha, BC
 
--   Clippity-Doo-Dah 5.11b/c, The Pillary, Squamish, BC
+-   Clippity-Doo-Dah 5.11b/c, The Pillary, Squamish, BC [2024]{style="float:right"}
 
--   Chalant 5.11b, The Pillary, Squamish, BC
+-   Chalant 5.11b, The Pillary, Squamish, BC [2024]{style="float:right"}
 
 -   Wingman 5.11b, Sully's Hangout, Vancouver, BC
 
@@ -244,13 +282,15 @@ output:
 
 ## Redpoint - Traditional Climbs
 
+-   [Familial Ethics](https://www.mountainproject.com/route/119374007/familial-ethics) 5.11b, Murrin Park, Squamish, BC [2024]{style="float:right"}
+
 -   Yorkshire Gripper 5.11b, Smoke Bluffs, Squamish, BC
 
 -   Partners in Crime 5.11a, Smoke Bluffs, Squamish, BC
 
 -   Kangaroo Korner 5.11a, Smoke Bluffs, Squamish, BC
 
--   Ginger 5.11a, Vinyl Village, Yukon
+-   Ginger 5.11a, Vinyl Village, Yukon [2015]{style="float:right"}
 
 -   Rainy Day Dream Away 5.10c, Bulletheads, Squamish, BC
 
@@ -285,6 +325,8 @@ output:
 -   Popeye and the Raven 5.10c Mixed, Smoke Bluffs, Squamish, BC
 
 -   Unknown Offwidth 5.10+, Reservoir Wall, Indian Creek, Utah
+
+-   A Little Testis 5.10b, Murrin Park, Squamish, BC [2024]{style="float:right"}
 
 -   SM's Delight 5.10b, Smoke Bluffs, Squamish, BC
 
@@ -382,21 +424,25 @@ output:
 -   Carlsberg WI5, Lillooet, BC [2018/2019?]{style="float:right"}\
     [note: lead; not clean]
 
--   Polar Circus 400m WI5, Icefields Parkway, AB (did not finish last 30m due to bad ice) [2022]{style="float:right"}\
+-   Polar Circus 400m WI5, Icefields Parkway, AB  [2022]{style="float:right"}\
+    [note: did not finish last 30m due to bad ice]
 
--   Elliot Left Hand 130m WI5, David Thompson Hwy, AB (lead; not clean) [2022]{style="float:right"}\
+-   Elliot Left Hand 130m WI5, David Thompson Hwy, AB  [2022]{style="float:right"}\
+    [note: lead; not clean]
 
 -   The Plum 300m WI5, Pemberton, BC
 
 -   Deeping Wall WI5, Marble Canyon, Lillooet, BC
 
--   Malignant Mushroom WI5, The Ghost, AB (second; clean) - [2017]{style="float:right"}\
+-   Malignant Mushroom WI5, The Ghost, AB  [2017]{style="float:right"}\
+    [note: second; clean]
 
--   Nothing But the Breast 145m WI4+, Dave Thomson Highway, AB - [2020]{style="float:right"}\
+-   Nothing But the Breast 145m WI4+, Dave Thomson Highway, AB [2020]{style="float:right"}\
 
--   Cauthorn-Wilson 240m WI4, Washington Pass, Washington, US - [2023]{style="float:right"}\
+-   Cauthorn-Wilson 240m WI4, Washington Pass, Washington, US [2023]{style="float:right"}\
 
--   Good Luck and Bad Dreams 115m M6+ WI4, Dave Thomson Highway, AB (second; not clean)- [2020]{style="float:right"}\
+-   Good Luck and Bad Dreams 115m M6+ WI4, Dave Thomson Highway, AB [2020]{style="float:right"}\
+    [note: second; not clean]
 
 -   Night N Gale 150m WI4, Bridge River, BC [2023]{style="float:right"}\
 
@@ -487,6 +533,8 @@ output:
 
 # Hiking
 
+-   Windy Joe to Frosty Mountain Loop, 30km and 1,200m elevation, E.C. Manning Park, BC - one day [2024]{style="float:right"}
+
 -   Rockwall Trail, 54km, Kootenay National Park - four days [2023]{style="float:right"}\
 
 -   Tenquille Lake, 30km, Pemberton, BC - three days (day hike to Ogre Lake on second day) [2022]{style="float:right"}\
@@ -521,9 +569,18 @@ output:
 
 # Skiing
 
--   Claire Kees Hut [2022]{style="float:right"}\
+-   Claire Kees Hut, Whistler, BC [2022]{style="float:right"}
+    -   Banana Chute on Fissile Peak 
 
--   Garibaldi Neve Traverse, 40km with 1,750m of ascent - two days [2018]{style="float:right"}\
+\newline
+
+-   Heart Strings Couloir, Duffey Lake, BC [2021?]{style="float:right"}
+
+-   Garibaldi Neve Traverse, Garibaldi, BC; 40km with 1,750m of ascent - two days [2018]{style="float:right"}\
+
+-   Various backcountry runs in Duffey Lake region, BC [2015 - present]{style="float:right"}
+
+-   Various backcountry runs in Yukon [circa 2014-2015]{style="float:right"}
 
 # Running
 

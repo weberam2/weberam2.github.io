@@ -9,6 +9,8 @@ navbar:
       href: index.html
     - text: "Adventures"
       href: adventures.html
+    - text: "Future Climbs"
+      href: futureclimbs.html
     - text: "Hard Boulders (Men)"
       href: boulders.html
     - text: "Hard Boulders (Women)"
