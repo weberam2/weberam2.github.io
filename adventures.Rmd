@@ -286,6 +286,8 @@ output:
 
 -   Yorkshire Gripper 5.11b, Smoke Bluffs, Squamish, BC
 
+-   Werewolves of London 5.11a, Smoke Bluffs, Squamish, BC [2024]{style="float:right"}
+
 -   Partners in Crime 5.11a, Smoke Bluffs, Squamish, BC
 
 -   Kangaroo Korner 5.11a, Smoke Bluffs, Squamish, BC
@@ -583,6 +585,8 @@ output:
 -   Various backcountry runs in Yukon [circa 2014-2015]{style="float:right"}
 
 # Running
+
+-   "Cove to Cove", Deep Cove to Porteau Cove via Vicar Ridge, Paton, Hanes Valley, BCMC, Baden Powell, and Howe Sound Crest Trail, North Shore, North Vancouver, BC; 80k with 7,300m ascent - 29 hrs [2024]{style="float:right"}\
 
 -   Helm Creek to Castle Towers to Rubble Creek, Garibaldi, BC; 41k with 3,000m ascent - 13 hrs [2023]{style="float:right"}\
 
