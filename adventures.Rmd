@@ -593,7 +593,10 @@ output:
 -   ForeTrails Hallow's Eve, North Vancouver, BC; 21.1k trail race with 866m ascent - 2.5hrs [2022]{style="float:right"}\
 
 -   FatDog 70, Manning Park, BC; 111k trail race with 4,700m of ascent - 20hr [2019]{style="float:right"}\
+<details>
+  <summary>Photo</summary>
     ![](images/paste-65830886.png)
+</details>
 
 -   Kneeknacker 50, North Vancouver, BC; 48k trail race with 3,000m of ascent - 7hr [2019]{style="float:right"}\
 
