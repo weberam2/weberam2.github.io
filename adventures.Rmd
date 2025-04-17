@@ -82,10 +82,9 @@ output:
 
 -   [Pup Buttress](https://www.mountainproject.com/route/113544300/pup-buttress) D+ 10-11p 5.10a, Harvey's Pup, North Vancouver, BC [2023]{style="float:right"}\
 
--   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, Crown Mountain, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)]
+-   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, Crown Mountain, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)] [2020]{style="float:right"}
 
--   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Yak Peak, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)]
-
+-   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Yak Peak, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)] [2016]{style="float:right"}
 
 -   [Ensawkwatch Enchainment](https://www.mountainproject.com/route/113544618/ensawkwatch-enchainment-d) 5km III 18p 5.9 var., North & South Nesakwatch Spires & Mt. Rexford, Chilliwack, BC [[Youtube](https://www.youtube.com/watch?v=RCvaISGolLM)] [2018]{style="float:right"}
 
@@ -98,7 +97,7 @@ output:
 
 -   [Needs More Cow Bell](https://www.mountainproject.com/route/120812266/needs-more-cowbell) 214m 6p 5.8+, Boxcar Mountain, Cathedral Lakes, BC [2023]{style="float:right"}\
 
--   [NE Buttress](https://www.mountainproject.com/route/119444837/northeast-buttress) 400m 10p 5.6, West Lion, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=Z1a7XdPQ7Zo)]
+-   [NE Buttress](https://www.mountainproject.com/route/119444837/northeast-buttress) 400m 10p 5.6, West Lion, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=Z1a7XdPQ7Zo)] [2020]{style="float:right"}\
 
 -   [North Ridge](https://www.mountainproject.com/route/119050077/north-ridge) 600m III, 5.4, Tricouni, Whistler, BC [2021]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=Dui82abXbdY)]
@@ -108,17 +107,17 @@ output:
 
 ## Multi-pitch Rock Climbs
 
--   Yankee Clipper 15p sport 5.12a, The Jungle, El Potrero Chico, Mexico
+-   Yankee Clipper 15p sport 5.12a, The Jungle, El Potrero Chico, Mexico [2014]{style="float:right"}\
 
 -   Borderline / Angel's Crest / High Plains Drifter 14p trad 5.11c, The Chief, Squamish BC
 
--   Gulag Archipelago 4p sport 5.11c, Red Wall, Smith Rock, Oregon
+-   Gulag Archipelago 4p sport 5.11c, Red Wall, Smith Rock, Oregon [2017]{style="float:right"}
 
 -   New Life 5p trad 5.11b, North Walls, Squamish, BC
 
--   Fogducker trad 4p 5.11a, Slhanay, Squamish, BC
+-   Fogducker 4p trad 5.11a, Slhanay, Squamish, BC
 
--   Wonderful Thing About Tiggers trad 7p 5.11a, Fluffy Kitten Wall, Squamish, BC
+-   Wonderful Thing About Tiggers 7p trad 5.11a, Fluffy Kitten Wall, Squamish, BC
 
 -   The Grand Wall 9p trad 5.11a A0, The Chief, Squamish, BC
 
@@ -128,7 +127,7 @@ output:
 
 -   Krimo Gold 5p trad 5.11a, The Chief, Squamish, BC
 
--   Estrallita 12p sport 5.11a, La Estrallas, El Potrero Chico, Mexico
+-   Estrallita 12p sport 5.11a, La Estrallas, El Potrero Chico, Mexico [2014]{style="float:right"}\
 
 -   Guaranteed Rugged 33p sport 5.10d (on-sight), Marble Canyon, BC, Canada [2022]{style="float:right"}\
     [note: longest multi-pitch sport climb in North America?]
@@ -143,36 +142,42 @@ output:
 
 -   Borderline / Angel's Crest 15p trad 5.10d (red-point), The Chief, Squamish, BC
 
--   Sunset Strip 12p trad 5.10d, Grand Wall, Squamish, BC
+-   Sunset Strip 12p trad 5.10d, Grand Wall, Squamish, BC [2015]{style="float:right"}
 
--   Humanality 6p sport 5.10d (on-sight), Tonsai Wall, Railay, Thailand
+-   Humanality 6p sport 5.10d (on-sight), Tonsai Wall, Railay, Thailand [2015]{style="float:right"}
 
--   Crystal Flame 4p sport 5.10d (on-sight), Candlestick Area, Railay, Thailand
+-   Crystal Flame 4p sport 5.10d (on-sight), Candlestick Area, Railay, Thailand [2015]{style="float:right"}
 
--   Stairway to Heaven 16p sport 5.10d, Grand Wall, Squamish, BC
+-   Stairway to Heaven 16p sport 5.10d, Grand Wall, Squamish, BC [2015]{style="float:right"}
 
 -   Rock-On Direct / Ultimate Everything 13p trad 5.10c, The Chief, Squamish, BC
 
--   St. Vitus' Dance / Karen's Math / Memorial Crack / Squamish Buttress 13p trad 5.10c (on-sight), The Chief, Squamish, BC B
+-   St. Vitus' Dance / Karen's Math / Memorial Crack / Squamish Buttress 13p trad 5.10c (on-sight), The Chief, Squamish, BC
 
 -   Bulletheads East 4p trad 5.10c (on-sight), The Chief, Squamish, BC
 
--   Treasure of Sierra Madres 7p sport 5.10c (on-sight), Mota Wall, El Potrero Chico, Mexico
+-   Treasure of Sierra Madres 7p sport 5.10c (on-sight), Mota Wall, El Potrero Chico, Mexico [2014]{style="float:right"}
 
 -   Over the Rainbow (5.10b var.) / Boomstick / Squamish Buttface (5.10a var.) 16p trad 5.10b (on-sight), The Chief, Squamish, BC
 
--   Black Orpheus 11p trad 5.10a (on-sight), Oak Creek Canyon, Red Rock, Nevada
+-   Black Orpheus 11p trad 5.10a (on-sight), Oak Creek Canyon, Red Rock, Nevada, USA [2016]{style="float:right"}
 
 -   Hairpin 4p trad 5.10a (on-sight), Papoose, Squamish, BC
 
--   <mark style="background-color: #AAFF00">[Regular Route](https://www.mountainproject.com/route/105847227/regular-route) 303m 12p 5.9, Fairview Dome, Tuolumne Meadows, CA [2024]{style="float:right"}
+-   <mark style="background-color: #AAFF00">[Regular Route](https://www.mountainproject.com/route/105847227/regular-route) 303m 12p 5.9 (on-sight), Fairview Dome, Tuolumne Meadows, CA [2024]{style="float:right"}
 
--   <mark style="background-color: #AAFF00">Kor-Ingalls Route 4p 5.9 (on-sight), Castleton Tower, Utah
+-   <mark style="background-color: #AAFF00">Kor-Ingalls Route 4p 5.9 (on-sight), Castleton Tower, Utah [2016]{style="float:right"}
 
 -   <mark style="background-color: #AAFF00">The Nose 28p trad and aid VI 5.9 C2, El Capitan, Yosemite, California, USA [2022]{style="float:right"}\
     [note: fixed to Sickle, climbed over four days and three nights, slept on summit]
 
--   Crimson Chrysalis 9p trad 5.8+ (on-sight), Cloud Tower, Red Rock, Nevada
+-   Epinephrine 13p trad 5.9 IV (on-sight), Black Velvet Wall, Red Rock, Nevada, USA [2025]{style="float:right"}
+
+-   Crimson Chrysalis 9p trad 5.8+ (on-sight), Cloud Tower, Red Rock, Nevada, USA [2016]{style="float:right"}
+
+-   Frogland 6p trad 5.8 (on-sight), Black Velvet Wall, Red Rock, USA [2025]{style="float:right"}
+
+-   Tunnel Vision 6p trad 5.7 (on-sight), White Rock, Red Rock, Nevada, USA [2025]{style="float:right"}
 
 -   <mark style="background-color: #AAFF00">Royal Arches 15p III/IV 5.7 A0 (on-sight), Yosemite, California, USA [2022]{style="float:right"}
 
@@ -182,7 +187,7 @@ output:
 
 -   Lox Stock and Two Smolts on Bagels 5.12a, Paradise Valley, Squamish, BC
 
--   Princess Eyes 5.11c/d, Phra Nang Beach, Railay, Thailand
+-   Princess Eyes 5.11c/d, Phra Nang Beach, Railay, Thailand [2015]{style="float:right"}
 
 -   Knucklehead 5.11c, Knucklehead, Cypress Falls, North Vancouver, BC
 
@@ -220,7 +225,7 @@ output:
 
 -   Just Basking 5.11b, Diamondback, Skaha, BC
 
--   Lightly Toasted 5.11b, Llama Wall, Smith Rock, Oregon
+-   Lightly Toasted 5.11b, Llama Wall, Smith Rock, Oregon [2017]{style="float:right"}
 
 -   The Compromise 5.11b, Rogue's Gallery, Squamish, BC
 
@@ -228,9 +233,9 @@ output:
 
 -   Fuzzy Undercling 5.11b, Military Wall, Red River Gorge, KY
 
--   Glitter Gulch 5.11b, Sweet Pain Wall, Red Rock, NV
+-   Glitter Gulch 5.11b, Sweet Pain Wall, Red Rock, NV [2016]{style="float:right"}
 
--   Sour Pain 5.11b, Sweet Pain Wall, Red Rock, NV
+-   Sour Pain 5.11b, Sweet Pain Wall, Red Rock, NV [2016]{style="float:right"}
 
 -   My One Muscle 5.11a, Sully's Hangout, Vancouver, BC
 
@@ -242,7 +247,7 @@ output:
 
 -   Cytotoxic 5.11a, Diamondback, Skaha, BC
 
--   Entering Relativity 5.11a, Llama Wall, Smith Rock, Oregon
+-   Entering Relativity 5.11a, Llama Wall, Smith Rock, Oregon [2017]{style="float:right"}
 
 -   Good Times 5.11a, Fern Hill, Squamish, BC
 
@@ -252,25 +257,25 @@ output:
 
 -   Desert Dessert 5.11a, Middle East Wall, Frenchman Coulee, WA
 
--   Two Pumped Chumps 5.11a, Mota Wall, El Potrero Chico, Mexico
+-   Two Pumped Chumps 5.11a, Mota Wall, El Potrero Chico, Mexico [2014]{style="float:right"}
 
--   Best Route in Minnesota, The 5.11a, Escher World, Railay, Thailand
+-   Best Route in Minnesota, The 5.11a, Escher World, Railay, Thailand [2015]{style="float:right"}
 
--   Beauty and the Beast, 5.11a, Tonsai Roof, Railay, Thailand
+-   Beauty and the Beast, 5.11a, Tonsai Roof, Railay, Thailand [2015]{style="float:right"}
 
--   No Name 5.11a, Dum's Kitchen, Railay, Thailand
+-   No Name 5.11a, Dum's Kitchen, Railay, Thailand [2015]{style="float:right"}
 
--   Mutual of Omaha 5.11a, Wild Kingdom, Railay, Thailand
+-   Mutual of Omaha 5.11a, Wild Kingdom, Railay, Thailand [2015]{style="float:right"}
 
--   Krabi! Krabi! 5.11a, The Defile Wall, Railay, Thailand
+-   Krabi! Krabi! 5.11a, The Defile Wall, Railay, Thailand [2015]{style="float:right"}
 
--   Muay Thai 5.11a, Muay Thai, Railay, Thailand
+-   Muay Thai 5.11a, Muay Thai, Railay, Thailand [2015]{style="float:right"}
 
--   Kratoy (Lady Boy) 5.11a, One-Two-Three, Railay, Thailand
+-   Kratoy (Lady Boy) 5.11a, One-Two-Three, Railay, Thailand [2015]{style="float:right"}
 
--   Nut Cracker 5.11a, The Keep, Railay, Thailand
+-   Nut Cracker 5.11a, The Keep, Railay, Thailand [2015]{style="float:right"}
 
--   Babo Does Thailand 5.11a, The Keep, Railay, Thailand
+-   Babo Does Thailand 5.11a, The Keep, Railay, Thailand [2015]{style="float:right"}
 
 -   Balance Beam 5.11a, Playground, Red River Gorge, KY
 
@@ -452,7 +457,7 @@ output:
 
 -   Synchronicity 300m WI4, Duffey Lake Road, Lillooet, BC
 
--   Obsession 2p 55m WI4, Orient Bay, ON
+-   Obsession 2p 55m WI4, Orient Bay, ON [2015]{style="float:right"}
 
 -   Professor Falls III 5p 210m WI4, Banff, AB [2017]{style="float:right"}\
 
@@ -469,23 +474,23 @@ output:
 
 -   The Column WI4-, Rambles Right, Duffey Lake Road, Lillooet, BC
 
--   Oregon Jack WI3+ [note: didn't top out]
+-   Oregon Jack WI3+ [note: didn't top out] [2016]{style="float:right"}
 
 -   End of the Line 100m WI3, Dave Thomson Highway, AB [2020]{style="float:right"}\
 
--   Mouse Trap 330m WI3, Hope, BC
+-   Mouse Trap 330m WI3, Hope, BC [2019]{style="float:right"}
 
--   Entropy 120m WI3, Whistler, BC
+-   Entropy 120m WI3, Whistler, BC [2016]{style="float:right"}
 
--   Sunshine 45m WI3, Front Ranges, AB
+-   Sunshine 45m WI3, Front Ranges, AB [2017]{style="float:right"}
 
--   Soleil WI3, Whitehorse
+-   Soleil WI3, Whitehorse [2014]{style="float:right"}
 
--   Bridal Veil Falls WI3, BC
+-   Bridal Veil Falls WI3, BC [2017]{style="float:right"}
 
--   A Scottish Tale WI3, Squamish, BC
+-   A Scottish Tale WI3, Squamish, BC 
 
--   Picadilly Circus WI3, BC
+-   Picadilly Circus WI3, BC [2017]{style="float:right"}
 
 -   Cherry Ice, Lillooet BC
 
@@ -511,7 +516,7 @@ output:
 
 -   Sky Pilot, Squamish, BC [2022]{style="float:right"}\
 
--   Mt Seymour (1,449) [December 2021]{style="float:right"} 
+-   Mt Seymour (1,449) [December 2021]{style="float:right"}\
 
 -   Peak 6500 (1964) and some more; 1948m ascent, 25km, 13.75 hrs [August 2021]{style="float:right"}\
 
