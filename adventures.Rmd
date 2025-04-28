@@ -510,7 +510,7 @@ output:
 
 # Scrambles
 
--   Castle Towers, Garibaldi Park, BC (see Running) [2023]{style="float:right"}\
+-   Castle Towers, Garibaldi Park, BC (see [Running](#running))) [2023]{style="float:right"}\
 
 -   Grimface Mountain, Cathedral Park, BC [2023]{style="float:right"}\
 
@@ -520,7 +520,7 @@ output:
 
 -   Peak 6500 (1964) and some more; 1948m ascent, 25km, 13.75 hrs [August 2021]{style="float:right"}\
 
--   Mt Hanover (1748m) + Deek's Peak (1600m?); 1648m ascent, 33kkm; 13.5 hrs [May 2021]{style="float:right"}\
+-   Mt Hanover (1748m) + Deek's Peak; 2637m ascent, 33km; 9 hrs [May 2021]{style="float:right"}\
 
 -   Mt Brunswick (1788m); 1588m ascent, 15km; 9 hrs car to car [March 2021]{style="float:right"}\
 
@@ -528,7 +528,7 @@ output:
 
 -   Black Tusk, Whistler, BC [2019]{style="float:right"}\
 
--   Mt Windsor (1688m) [Summer? 2018]{style="float:right"}\
+-   Mt Windsor (1688m) [2018]{style="float:right"}\
 
 -   Sky Pilot, Squamish, BC [August 2016]{style="float:right"}\
 
@@ -581,7 +581,7 @@ output:
 
 \newline
 
--   Heart Strings Couloir, Duffey Lake, BC [2021?]{style="float:right"}
+-   Heart Strings Couloir, Duffey Lake, BC [2022]{style="float:right"}
 
 -   Garibaldi Neve Traverse, Garibaldi, BC; 40km with 1,750m of ascent - two days [2018]{style="float:right"}\
 
@@ -591,29 +591,40 @@ output:
 
 # Running
 
--   "Cove to Cove", Deep Cove to Porteau Cove via Vicar Ridge, Paton, Hanes Valley, BCMC, Baden Powell, and Howe Sound Crest Trail, North Shore, North Vancouver, BC; 80k with 7,300m ascent - 29 hrs [2024]{style="float:right"}\
+Most official race event results can be found on my
+[athlinks](https://www.athlinks.com/athletes/562034293/results) profile
+
+-   "Cove to Cove", Deep Cove to Porteau Cove via Vicar Ridge, Paton, Hanes
+    Valley, BCMC, Baden Powell, and Howe Sound Crest Trail, North Shore, North
+    Vancouver, BC; 80k with 7,300m ascent - 29 hrs [2024]{style="float:right"}\
+
+-   Deep Cove - Seymour Ridge - Paton - Norvan Falls - Baden Powell - Deep Cover, North Shore, North Vancouver, BC; 55k with 3,951m ascent - 13.5 hrs [2024]{style="float:right"}\
+
+-   South Granville - Grouse Grind + Stanley Park - South Granville, Vancouver, BC; 45k with 1,385m ascent - 5.5 hrs [2024]{style="float:right"}\
+
+-   South Granville - North Van Beach + Stanley Park + False Creek - South Granville, Vancouver BC; 41k - 4 hrs [2024]{style="float:right"}\
 
 -   Helm Creek to Castle Towers to Rubble Creek, Garibaldi, BC; 41k with 3,000m ascent - 13 hrs [2023]{style="float:right"}\
 
 -   ForeTrails Hallow's Eve, North Vancouver, BC; 21.1k trail race with 866m ascent - 2.5hrs [2022]{style="float:right"}\
 
--   FatDog 70, Manning Park, BC; 111k trail race with 4,700m of ascent - 20hr [2019]{style="float:right"}\
+-   FatDog 70, Manning Park, BC; 111k trail race with 4,700m of ascent - 20hr 4mins [2019]{style="float:right"}\
 <details>
   <summary>Photo</summary>
     ![](images/paste-65830886.png)
 </details>
 
--   Kneeknacker 50, North Vancouver, BC; 48k trail race with 3,000m of ascent - 7hr [2019]{style="float:right"}\
+-   Kneeknacker 50, North Vancouver, BC; 48k trail race with 3,000m of ascent - 7hr 7mins [2019]{style="float:right"}\
 
--   Howe Sound Crest Trail x2; from Cypress to Deeks Lake and back: 48k solo and unsupported with 4,000m ascent - 13hr [2019]{style="float:right"}\
+-   Howe Sound Crest Trail x2; from Cypress to Deeks Lake and back: 48k solo and unsupported with 4,000m ascent - 13hr 18mins [2019]{style="float:right"}\
 
--   Forerunners Super Summit 50k; 1,500m ascent - 6hr [2019]{style="float:right"}\
+-   Forerunners Super Summit 50k; 1,500m ascent - 5hr 42mins [2019]{style="float:right"}\
 
--   Mamquam Lake and back; 46k solo and unsupported with 2,400m ascent - 8hr? [2019]{style="float:right"}\
+-   Mamquam Lake and back; 46k solo and unsupported with 2,400m ascent - 6hr 54mins [2019]{style="float:right"}\
 
--   Grouse to Mt. Unnecessary and back; 45k solo and unsupported with 2,050m ascent - 7hr [2019]{style="float:right"}\
+-   Grouse to Mt. Unnecessary and back; 45k solo and unsupported with 2,620m ascent - 6hr 43mins [2019]{style="float:right"}\
 
--   Bear Mountain, Victoria, BC; 10k [2018]{style="float:right"}\
+-   Bear Mountain, Victoria, BC; 10k with 300m of ascent - 1hr 2mins [2018]{style="float:right"}\
 
 -   Squamish 50, Squamish, BC; 50k trail race with 2,500m of ascent - 7hr 6mins [2016]{style="float:right"}\
 
@@ -639,11 +650,13 @@ output:
 
 -   Around the Bay Road Race; 30km - 2hr 38mins [2012]{style="float:right"}\
 
+-   Road2Hope Hamilton Half-Marathon, Hamilton, ON - 1hr 48mins [2011]{style="float:right"}\
+
 # Cycling
 
 -   Early Bird Special - Fixed Gear - 210km with 2130m ascent, 8hrs 59mins - Vancouver, BC [2021]{style="float:right"}
 
--   Triple Crown: 130km with 2600m ascent, 8 hrs? - North Shore, Vancouver, BC [2021]{style="float:right"}
+-   Triple Crown: 130km with 2600m ascent, 8hr 37mins - North Shore, Vancouver, BC [2021]{style="float:right"}
 
 -   200km Breve - 3 Hump Camel - 8hr? - BC [2016]{style="float:right"}
 
@@ -667,12 +680,12 @@ output:
 
 # Canoeing
 
--   Powell Forest Canoe Route - 57 km, 8 lakes, 5 portages - 5 days [2022]{style="float:right"}
+-   Powell Forest Canoe Route - 57km, 8 lakes, 5 portages - 5 days [2022]{style="float:right"}
 
--   Indian Arm - 2 days - [2017/8?]{style="float:right"}
+-   Indian Arm - 40km - 2 days - [2017]{style="float:right"}
 
--   Yukon River - Carcross to Dawson - 5 days? [2014/5?]{style="float:right"}
+-   Yukon River - Carmacks to Dawson - 420km - 5 days [2015]{style="float:right"}
 
--   Kawartha Lakes - 2 days [2013]{style="float:right"} 
+-   Kawartha Lakes - 2 days [2013]{style="float:right"}
 
 -   Various multi-day canoe routes in Algonquin
