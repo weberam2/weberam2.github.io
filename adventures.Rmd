@@ -19,6 +19,11 @@ output:
 
 <mark style="background-color: #AAFF00"> \[note: Routes in green are part of the Classic/Updated list of the [Fifty Classic Climbs of North America](https://en.wikipedia.org/wiki/Fifty_Classic_Climbs_of_North_America)]
 
+-   <mark style="background-color: #AAFF00">[Liberty Crack](https://www.mountainproject.com/route/106512297/liberty-crack) 364m V 12p 11a C2, Washington Pass, Washington, USA [2025]{style="float:right"}\
+    <details>
+    ![Looking up at the route from the base](images/libertycrack.jpg)
+    </details>
+
 -   [Springbok Arete](https://www.mountainproject.com/route/114545765/springbok-arete) 350m IV 13p 5.11a, Anderson Range, Hope, BC [2021]{style="float:right"}\
     [[Youtube](https://www.youtube.com/watch?v=YmZ5O80E2TA)]
     <details>
@@ -41,7 +46,7 @@ output:
     </details>
 
 -   <mark style="background-color: #AAFF00">[Lotus Flower Tower](https://www.mountainproject.com/area/105905652/lotus-flower-tower) V 18p 5.11-, The Cirque of the Unclimbables, NWT [2015]{style="float:right"}\
-    [note:only completed 10 pitches due to weather and time constraints]\
+    [note: only completed 10 pitches due to weather and time constraints]\
     [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]
     
     <details>
