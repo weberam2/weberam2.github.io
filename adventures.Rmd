@@ -17,9 +17,10 @@ output:
 
 ## Alpine Routes
 
-<mark style="background-color: #AAFF00"> \[note: Routes in green are part of the Classic/Updated list of the [Fifty Classic Climbs of North America](https://en.wikipedia.org/wiki/Fifty_Classic_Climbs_of_North_America)]
+<mark style="background-color: #AAFF00"> \[note: Routes in green are part of the Classic/Updated list of the [Fifty Classic Climbs of North America](https://en.wikipedia.org/wiki/Fifty_Classic_Climbs_of_North_America)] </mark>
 
--   <mark style="background-color: #AAFF00">[Liberty Crack](https://www.mountainproject.com/route/106512297/liberty-crack) 364m V 12p 11a C2, Washington Pass, Washington, USA [2025]{style="float:right"}\
+-   <mark style="background-color: #AAFF00"> [Liberty Crack](https://www.mountainproject.com/route/106512297/liberty-crack) 364m V 12p 11a C2, Washington Pass, Washington, USA </mark> [2025]{style="float:right"}\
+
     <details>
     ![Looking up at the route from the base](images/libertycrack.jpg)
     </details>
