@@ -1,7 +1,5 @@
 name: "weberam2"
-title: "Alex's Site"
 author: "Alexander Mark Weber"
-date: "`r Sys.Date()`"
 output_dir: "docs"
 navbar:
   title: "Alex Weber's Personal Site"
