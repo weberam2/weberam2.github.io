@@ -1,6 +1,6 @@
 name: "weberam2"
 title: "Alex's Site"
-auhot: "Alexander Mark Weber"
+author: "Alexander Mark Weber"
 date: "`r Sys.Date()`"
 output_dir: "docs"
 navbar:
@@ -19,3 +19,4 @@ navbar:
 output:
   html_document:
     theme: cosmo
+    style: custom.css
