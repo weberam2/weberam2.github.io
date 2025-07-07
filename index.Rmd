@@ -1,9 +1,7 @@
 ---
-title: "Alex's Site"
+title: "Alex Weber's Personal Website"
 date: "`r Sys.Date()`"
 ---
-
-# Alex Weber's Personal Website
 
 ![](images/alexpic_tricouni.jpg)
 
@@ -16,6 +14,7 @@ main hobbies have been climbing, running, snowboarding, ice climbing, hiking,
 backcountry camping, sailing and more. I hope to one day learn to paraglide.
 
 More social media:
+
 - [YouTube](https://www.youtube.com/@alexandermarkweber1814)
 - [BlueSky](https://bsky.app/profile/weberam2.bsky.social)
 - [Mastodon](https://mastodon.social/@weberam2)
