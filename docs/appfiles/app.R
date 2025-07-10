@@ -137,6 +137,7 @@ server <- function(input, output) {
   data <- reactive({
     climbs %>% filter(
       AlexClimbed %in% input$alexdone &
+        Classics %in% input$classicfifty &
         Country %in% input$location &
         State %in% input$state &
         Grade >= input$gradeRange[1] & Grade <= input$gradeRange[2]
