@@ -1,6 +1,7 @@
 name: "weberam2"
 author: "Alexander Mark Weber"
 output_dir: "docs"
+exclude: ["appfiles"]
 navbar:
   title: "Alex Weber's Personal Site"
   left:
@@ -10,11 +11,13 @@ navbar:
       href: adventures.html
     - text: "Future Climbs"
       href: futureclimbs.html
-    - text: "Hard Boulders (Men)"
-      href: boulders.html
-    - text: "Hard Boulders (Women)"
-      href: femaleboulders.html
+    - text: "More"
+      menu:
+        - text: "Hard Boulders (Men)"
+          href: boulders.html
+        - text: "Hard Boulders (Women)"
+          href: femaleboulders.html
 output:
   html_document:
     theme: cosmo
-    style: custom.css
+    css: custom.css

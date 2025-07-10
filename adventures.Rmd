@@ -1,5 +1,6 @@
 ---
 title: Alex Weber's Adventure Resume
+date: "`r Sys.Date()`"
 output: 
   html_document:
     toc: true
@@ -502,7 +503,7 @@ output:
 
 -   Norvan Falls, Vancouver, BC [2022]{style="float:right"}\
 
-# Highline
+# Highlining
 
 -   Lost Arrow Spire, 15m line, did not finish set-up (two man team), Yosemite, California, USA [2022]{style="float:right"}\
 
@@ -514,7 +515,7 @@ output:
 
 -   Original Line 30m long / 200m high, North Gully, The Chief, Squamish, BC (Independent setup. Only managed to walk 5 steps) [2017]{style="float:right"}\
 
-# Scrambles
+# Scrambling
 
 -   Castle Towers, Garibaldi Park, BC (see [Running](#running))) [2023]{style="float:right"}\
 
@@ -702,6 +703,6 @@ Most official race event results can be found on my
 
 -   Vancouver to Gibson's, overnight [May 2024]{style="float:right"}
 
--   Basic Coastal Navigation Certifiacte [April 2024]{style="float:right"}
+-   Basic Coastal Navigation Certificate [April 2024]{style="float:right"}
 
 -   Basic Cruising Certificate [Nov 2023]{style="float:right"}

@@ -5,17 +5,16 @@ date: "`r Sys.Date()`"
 
 ![](images/alexpic_tricouni.jpg)
 
-Since 2019, I have been an Assistant Professor (Partner-Track) at [UBC](https://pediatrics.med.ubc.ca/) and [BC Children's Hospital Research Institute](https://www.bcchr.ca/), interested in using quantitative MRI methods to study and improve brain development in newborns and children.
+Since 2019, I have been an Assistant Professor (Partner-Track) at [UBC](https://pediatrics.med.ubc.ca/) and [BC Children's Hospital Research Institute](https://www.bcchr.ca/). I use quantitative MRI methods to study and improve brain development in newborns and children.
 
-You can visit my lab's website [here](https://weberlab.github.io/), and see my CV [here](https://github.com/weberam2/UBC_Annotated_CV/blob/main/UBC_CV.pdf).
+You can visit my lab's website [here](https://weberlab.github.io/), and see my CV [here](https://github.com/weberam2/UBC_Annotated_CV/blob/main/UBC_CV.pdf) [right-click > Save Link As...].
 
-In my spare time, I like to learn new things and have adventures outside. My
-main hobbies have been climbing, running, snowboarding, ice climbing, hiking,
-backcountry camping, sailing and more. I hope to one day learn to paraglide.
+In my spare time, I like to learn new things and have adventures outside. You can see a summary of my '[Adventures](adventures.html)', and a slow-to-load map of potential [Future Climbs](futureclimbs.html), on their respective tabs. My main hobbies have been climbing, running, snowboarding, ice climbing, hiking, backcountry camping, sailing and more. I hope to one day learn to paraglide.
 
-More social media:
+Social media:
 
 - [YouTube](https://www.youtube.com/@alexandermarkweber1814)
 - [BlueSky](https://bsky.app/profile/weberam2.bsky.social)
 - [Mastodon](https://mastodon.social/@weberam2)
 - [Strava](https://www.strava.com/athletes/41642462)
+- [Goodreads](https://www.goodreads.com/user/show/4532721-alexander-weber)
