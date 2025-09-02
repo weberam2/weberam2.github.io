@@ -21,8 +21,8 @@ output:
 <mark style="background-color: #AAFF00"> \[note: Routes in green are part of the Classic/Updated list of the [Fifty Classic Climbs of North America](https://en.wikipedia.org/wiki/Fifty_Classic_Climbs_of_North_America)] </mark>
 
 -   <mark style="background-color: #AAFF00"> [Liberty Crack](https://www.mountainproject.com/route/106512297/liberty-crack) 364m V 12p 11a C2, Washington Pass, Washington, USA </mark> [2025]{style="float:right"}\
-
     <details>
+      <summary>Photo</summary>
     ![Looking up at the route from the base](images/libertycrack.jpg)
     </details>
 
@@ -88,8 +88,16 @@ output:
     </details>
 
 -   [Pup Buttress](https://www.mountainproject.com/route/113544300/pup-buttress) D+ 10-11p 5.10a, Harvey's Pup, North Vancouver, BC [2023]{style="float:right"}\
+    <details>
+      <summary>Photo</summary>
+      ![Summit views of Howe Sound](./images/HarveyPup.jpg){width="377"}
+    </details>
 
 -   [Widowmaker Arete](https://www.mountainproject.com/route/116522314/widowmaker-arete) 500m 12p 5.10a, Crown Mountain, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=RoOyfARGDgo)] [2020]{style="float:right"}
+    <details>
+      <summary>Photo</summary>
+      ![Very smoky horizon on the second whale-back](./images/WidowMaker.png){width="377"}
+    </details>
 
 -   [Yak Check](https://www.mountainproject.com/route/106517307/yak-check) 450m III 12p 5.10a, Yak Peak, Fraser Valley Area, BC [[Youtube](https://www.youtube.com/watch?v=ztKkoxCPc-U)] [2016]{style="float:right"}
 
@@ -103,6 +111,12 @@ output:
     [[Youtube](https://youtu.be/MHT1lKAq8aA?t=17)]
 
 -   [Needs More Cow Bell](https://www.mountainproject.com/route/120812266/needs-more-cowbell) 214m 6p 5.8+, Boxcar Mountain, Cathedral Lakes, BC [2023]{style="float:right"}\
+
+-   [Chehalis / Viennese-Recourse-Clarke Traverse](https://www.mountainproject.com/route/112836167/viennese-clarke-traverse) 4+km ridgeline 5.8, Chehalis range, Fraser Valley, BC [2025]{style="float:right"}
+    <details>
+      <summary>Photo</summary>
+      ![After summiting Viennese, looking over to Recourse (foreground) and Clarke (background)](./images/VCTraverse.jpg){width="377"}
+    </details>
 
 -   [NE Buttress](https://www.mountainproject.com/route/119444837/northeast-buttress) 400m 10p 5.6, West Lion, North Vancouver, BC [[Youtube](https://www.youtube.com/watch?v=Z1a7XdPQ7Zo)] [2020]{style="float:right"}\
 
@@ -517,69 +531,71 @@ output:
 
 # Scrambling
 
--   Castle Towers, Garibaldi Park, BC (see [Running](#running))) [2023]{style="float:right"}\
+-   Castle Towers (2,676m), Garibaldi Park, BC (see [Running](#running))) [2023]{style="float:right"}\
 
 -   Grimface Mountain, Cathedral Park, BC [2023]{style="float:right"}\
 
--   Sky Pilot, Squamish, BC [2022]{style="float:right"}\
+-   Sky Pilot (2,031m), Squamish, BC [2022]{style="float:right"}\
 
--   Mt Seymour (1,449) [December 2021]{style="float:right"}\
+-   Mt Seymour (1,449m) [December 2021]{style="float:right"}\
 
--   Peak 6500 (1964) and some more; 1948m ascent, 25km, 13.75 hrs [August 2021]{style="float:right"}\
+-   Peak 6500 (1,964m) and some more; 1948m ascent, 25km, 13.75 hrs [August 2021]{style="float:right"}\
 
--   Mt Hanover (1748m) + Deek's Peak; 2637m ascent, 33km; 9 hrs [May 2021]{style="float:right"}\
+-   Mt Hanover (1,748m) + Deek's Peak; 2637m ascent, 33km; 9 hrs [May 2021]{style="float:right"}\
 
--   Mt Brunswick (1788m); 1588m ascent, 15km; 9 hrs car to car [March 2021]{style="float:right"}\
+-   Mt Brunswick (1,788m); 1588m ascent, 15km; 9 hrs car to car [March 2021]{style="float:right"}\
 
--   Mt Cathedral (1737m); along with Coliseum Mountain (1,440m) and Mt Burwell (1,540m); 15hrs car to car [August 2019]{style="float:right"} 
+-   Mt Cathedral (1,737m); along with Coliseum Mountain (1,440m) and Mt Burwell (1,540m); 15hrs car to car [August 2019]{style="float:right"} 
 
--   Black Tusk, Whistler, BC [2019]{style="float:right"}\
+-   Black Tusk (2,319m), Whistler, BC [2019]{style="float:right"}\
 
--   Mt Windsor (1688m) [2018]{style="float:right"}\
+-   Mt Windsor (1,688m) [2018]{style="float:right"}\
 
--   Sky Pilot, Squamish, BC [August 2016]{style="float:right"}\
+-   Sky Pilot (2,031m), Squamish, BC [August 2016]{style="float:right"}\
 
--   Eastpost Spire, Bugaboos, BC [late July 2016]{style="float:right"}\
+-   Eastpost Spire (2,728m), Bugaboos, BC [late July 2016]{style="float:right"}\
 
--   Cypress Peak, Whistler, BC [July 2016]{style="float:right"}\
+-   Cypress Peak (2,083m), Whistler, BC [July 2016]{style="float:right"}\
 
--   Golden Ears, BC [April 2016]{style="float:right"}\
+-   Golden Ears (1,716m), BC [April 2016]{style="float:right"}\
 
 # Hiking
 
+-   Watersprite Lake, 17km and 660m elevation, Squamish, BC - two days with our Boston Terrier "Archie" [2025]{style="float:right"}
+
 -   Windy Joe to Frosty Mountain Loop, 30km and 1,200m elevation, E.C. Manning Park, BC - one day [2024]{style="float:right"}
 
--   Rockwall Trail, 54km, Kootenay National Park - four days [2023]{style="float:right"}\
+-   Rockwall Trail, 54km and 3,000m elevation, Kootenay National Park - four days [2023]{style="float:right"}\
 
 -   Tenquille Lake, 30km, Pemberton, BC - three days (day hike to Ogre Lake on second day) [2022]{style="float:right"}\
 
--   Cathedral Park: Lakeview Mountain + Boxcar; Diamond Trail; Rim Trail + Grimface Mountain, 70km, Cathedral Provincial Park, BC - 5 days (day hikes on days 2,3 and 4) [2020]{style="float:right"}\
+-   Cathedral Park: Lakeview Mountain + Boxcar; Diamond Trail; Rim Trail + Grimface Mountain, 70km, Cathedral Provincial Park, BC - five days (day hikes on days 2,3 and 4) [2020]{style="float:right"}\
 
 -   Three Brothers, 40km, E.C. Manning Park, BC - three days (day hike to Nicomen Lake on second day) [2020]{style="float:right"} 
 
 -   Mowich Camp via Skyline Trail from Strawberry Flats, 30km, E.C. Manning Park, BC - two days [2020]{style="float:right"}\
 
--   Rainbow Lake and Hanging Lake, 25km, Callaghan Valley, Whistler, BC - two days [2020]{style="float:right"}\
+-   Rainbow Lake and Hanging Lake, 25km and 900m elevation, Callaghan Valley, Whistler, BC - two days [2020]{style="float:right"}\
 
 -   Western Uplands Trail, First Loop, 40km, Algonquin Park, ON - three days with my nephew [2019]{style="float:right"}\
 
 -   First Half of Sunshine Coast Trail, 110km, Sunshine Coast, BC - five days [2018]{style="float:right"}\
 
--   Black Tusk, 40km, Garibaldi Provincial Park, BC - two days [2018]{style="float:right"}\
+-   Black Tusk, 40km and 1,700m elevation, Garibaldi Provincial Park, BC - two days [2018]{style="float:right"}\
 
--   Kalalau Trail, 30k, Kauai, Hawaii - two days [2017]{style="float:right"}\
+-   Kalalau Trail, 30km and 2,000m elevation, Kauai, Hawaii - two days [2017]{style="float:right"}\
 
--   Panorama Ridge, 30km, Garibaldi Provincial Park, BC - two days [2017]{style="float:right"}\
+-   Panorama Ridge, 30km and 1,600m elevation, Garibaldi Provincial Park, BC - two days [2017]{style="float:right"}\
 
--   Chilkoot Trail, 53km, Dyea, Alaska - several days [2015]{style="float:right"}\
+-   Chilkoot Trail, 53km and 1,800m elevation, Dyea, Alaska - three days [2015]{style="float:right"}\
 
--   Grizzly Lake / Divide Lake / Talus Lake, 60km, solo, YT - two days [2014]{style="float:right"}\
+-   Grizzly Lake / Divide Lake / Talus Lake, 60km and 2,900m elevation, solo, YT - two days [2014]{style="float:right"}\
 
--   Slim's River West Trail, 60km, solo, YT - two days [2014]{style="float:right"}\
+-   Slim's River West Trail, 60km and 1,700m elevation, solo, YT - two days [2014]{style="float:right"}\
 
--   West Coast Trail, 75km, Vancouver Island, BC - several days [2014]{style="float:right"}\
+-   West Coast Trail, 75km and 1,600m elevation, Vancouver Island, BC - five days [2014]{style="float:right"}\
 
--   La Cloche Silhouette Trail, Killarney Provincial Park, ON; 80km - 30hrs [2013]{style="float:right"}\
+-   La Cloche Silhouette Trail, 80km and 2,800m elevation, Killarney Provincial Park, ON - 30hrs [2013]{style="float:right"}\
 
 # Skiing
 
