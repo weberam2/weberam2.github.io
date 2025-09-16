@@ -23,7 +23,7 @@ output:
 -   <mark style="background-color: #AAFF00"> [Liberty Crack](https://www.mountainproject.com/route/106512297/liberty-crack) 364m V 12p 11a C2, Washington Pass, Washington, USA </mark> [2025]{style="float:right"}\
     <details>
       <summary>Photo</summary>
-    ![Looking up at the route from the base](images/libertycrack.jpg)
+    ![Looking up at the route from the base](images/libertycrack.jpg){width="377"}
     </details>
 
 -   [Springbok Arete](https://www.mountainproject.com/route/114545765/springbok-arete) 350m IV 13p 5.11a, Anderson Range, Hope, BC [2021]{style="float:right"}\
@@ -633,7 +633,7 @@ Most official race event results can be found on my
 -   FatDog 70, Manning Park, BC; 111k trail race with 4,700m of ascent - 20hr 4mins [2019]{style="float:right"}\
 <details>
   <summary>Photo</summary>
-    ![](images/paste-65830886.png)
+    ![](images/paste-65830886.png){width="377"}
 </details>
 
 -   Kneeknacker 50, North Vancouver, BC; 48k trail race with 3,000m of ascent - 7hr 7mins [2019]{style="float:right"}\
