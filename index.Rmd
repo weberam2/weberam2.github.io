@@ -18,3 +18,4 @@ Social media:
 - [Mastodon](https://mastodon.social/@weberam2)
 - [Strava](https://www.strava.com/athletes/41642462)
 - [Goodreads](https://www.goodreads.com/user/show/4532721-alexander-weber)
+- [Pixelfed](https://pixelfed.social/weberam2)

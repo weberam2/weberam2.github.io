@@ -12,7 +12,7 @@ library(ggrepel)
 # To get this to run on your website, you need to run this command from this folder:
 # shinylive::export(appdir = ".", destdir = "../Website/weberam2.github.io/docs/")
 # but note, it will overwrite your index.html file
-
+# 
 lat <- 49.246292
 long <- -123.116226
 zoom <- 5

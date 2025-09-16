@@ -50,10 +50,9 @@ output:
 -   <mark style="background-color: #AAFF00">[Lotus Flower Tower](https://www.mountainproject.com/area/105905652/lotus-flower-tower) V 18p 5.11-, The Cirque of the Unclimbables, NWT [2015]{style="float:right"}\
     [note: only completed 10 pitches due to weather and time constraints]\
     [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]
-    
     <details>
       <summary>Photo</summary>
-      ![Photo fromt a different route, but same area](images/gopr0358.jpg){width="377"}
+      ![Walking up to LFT](images/04_AlexLFT.jpg){width="377"}
     </details>
 
 -   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC [2018]{style="float:right"}
