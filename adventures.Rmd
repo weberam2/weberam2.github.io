@@ -52,7 +52,7 @@ output:
     [[Youtube](https://www.youtube.com/watch?v=38pePsJ6wFY)]
     <details>
       <summary>Photo</summary>
-      ![Walking up to LFT](images/04_AlexLFT.jpg){width="377"}
+      ![Walking up to LFT](images/04_AlexLFT_MW.jpg){width="377"}
     </details>
 
 -   [Dairyland](https://www.mountainproject.com/route/114939903/dairyland) 215m 6p 5.10d, Nesakwatch Spires, Chilliwack, BC [2018]{style="float:right"}
