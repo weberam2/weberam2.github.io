@@ -4,5 +4,5 @@ output: html_document
 ---
 
 ### [My First Post](blog_posts/2026-01-29-first-post.html)
-*January 29, 2026*
+*January 29, 2026*  
 A brief summary of what I learned while fighting with Distill today.
