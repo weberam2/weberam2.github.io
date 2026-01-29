@@ -1,0 +1,4 @@
+---
+title: "My Technical Blog"
+listing: posts # This tells Distill to look in the /posts folder
+---
