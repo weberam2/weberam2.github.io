@@ -1,8 +1,16 @@
 ---
-title: "Your Post Title Here"
+title: "A brief summary of what we know so far"
 output: html_document
 ---
 
-### Testing
+### What's going on with Alex?
+
+Hello family and friends!
+
+I got tired of having to text/message/call/e-mail everyone, and Joanne suggested I create a newsletter or blog.
+
+Tada!
+
+
 
 
